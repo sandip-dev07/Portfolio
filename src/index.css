@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Roboto', sans-serif;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+}
+::-webkit-scrollbar{
+    width: 12px;
+    scrollbar-color: white;
+}
+::-webkit-scrollbar-thumb {
+    background: black; 
+    border-radius: 10px;
+  }
+  
+
+::selection{
+    color: white;
+    background: #000;
+}
+body{
+    
+}

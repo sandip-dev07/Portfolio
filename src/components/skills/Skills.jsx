@@ -1,0 +1,92 @@
+import React from "react";
+import ProgressBar from "../../chip/ProgressBar";
+import SkillBox from "../../chip/SkillBox";
+
+import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
+import { SiJavascript ,SiTailwindcss,SiCanva,SiTypescript} from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { IoLogoNodejs,IoLogoPython } from "react-icons/io";
+
+const Skills = () => {
+  return (
+    <div id="skills">
+      <div className=" container  backdrop-blur-sm m-auto  mt-16">
+        {/* heading */}
+        <div className="relative mb-5">
+          <h3 className=" text-3xl font-black text-gray-400">My Skills</h3>
+          <span className="h-[1.1px] right-0 absolute w-[90%] bg-gray-300 block"></span>
+        </div>
+        {/* content*/}
+        <div className="flex sm:flex-col ">
+          <div className="left flex-1 w-full">
+            <p className=" text-gray-700 font-medium w-[100%]">
+              Here are my skills.
+            </p>
+            {/* left box */}
+            <div className="progress flex items-center h-[100%] justify-end sm:justify-center">
+              <div className=" flex flex-col gap-6  w-3/4  my-5">
+                <ProgressBar logo={<IoLogoHtml5 />} name={"HTML"} value={90} />
+                <ProgressBar logo={<IoLogoCss3 />} name={"CSS"} value={80} />
+                <ProgressBar
+                  logo={<SiJavascript />}
+                  name={"Javascript"}
+                  value={70}
+                />
+                <ProgressBar
+                  logo={<FaReact />}
+                  name={"React JS"}
+                  value={75}
+                />
+                <ProgressBar logo={<SiTailwindcss />} name={"Tailwind CSS"} value={70} />
+              </div>
+            </div>
+          </div>
+          {/* right box */}
+          <div className="right relative flex-1 flex flex-wrap p-5 gap-10 items-center justify-center sm:w-full">
+            <svg
+              className=" absolute -z-20 overflow-hidden -right-[30%] h-[180%] "
+              viewBox="0 0 200 200"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill="#F5F6FA"
+                d="M41.3,-56.2C55.2,-46.7,69.3,-36.9,74.3,-23.7C79.3,-10.4,75.2,6.3,70.6,23.7C66,41.1,61,59.1,49.2,71.8C37.4,84.5,18.7,91.8,2,89C-14.7,86.2,-29.3,73.4,-37.5,59.5C-45.6,45.7,-47.3,30.8,-55.4,15.7C-63.6,0.6,-78.2,-14.8,-78.5,-29.1C-78.7,-43.3,-64.7,-56.5,-49.2,-65.5C-33.7,-74.4,-16.9,-79.2,-1.6,-77C13.7,-74.9,27.4,-65.7,41.3,-56.2Z"
+                transform="translate(100 100)"
+              />
+            </svg>
+            <div className="first2 flex flex-col gap-10">
+              <SkillBox
+              logo={<IoLogoNodejs/>}
+                black={"white"}
+                white={"black"}
+                skill={"Node JS"}
+              />
+              <SkillBox
+              logo={<IoLogoPython/>}
+                black={"white"}
+                white={"black"}
+                skill={"Python"}
+              />
+            </div>
+            <div className="last2 flex flex-col gap-10">
+              <SkillBox
+              logo={<SiCanva/>}
+                black={"black"}
+                white={"white"}
+                skill={"Canva design"}
+              />
+              <SkillBox
+              logo={<SiTypescript/>}
+                black={"black"}
+                white={"white"}
+                skill={"TypeScript"}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Skills;

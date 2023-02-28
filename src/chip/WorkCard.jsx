@@ -7,15 +7,18 @@ const WorkCard = () => {
     <>
       {data.map((data) => {
         return (
-          <div key={data.id} className=" flex flex-col justify-center items-center gap-4 ">
+          <div
+            key={data.id}
+            className="flex flex-col justify-center items-center gap-4"
+          >
             <a href={data.link}>
-            <img
-              src={data.img}
-              alt={data.title}
-              className=" h-[320px] shadow-xl rounded-xl overflow-hidden  sm:h-[260px] hover:scale-105"
-            />
+              <img
+                src={data.img}
+                alt={data.title}
+                className="h-[280px] w-[380px] shadow-xl rounded-xl overflow-hidden sm:h-[260px] sm:w-[92%] sm:bg-cover mx-auto hover:scale-105"
+              />
             </a>
-            <p className=" text-gray-800 text-xl font-medium sm:text-xl">
+            <p className="text-gray-800 text-xl font-medium sm:text-lg">
               {data.title}
             </p>
           </div>

@@ -1,36 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-*{
-    font-family: 'Roboto', sans-serif;
-    transition: all .3s ease;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease;
+* {
+  font-family: "Roboto", sans-serif;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
 }
-html{
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-
+html {
+  overflow-x: hidden !important;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
 }
-::-webkit-scrollbar{
-    width: 12px;
-    scrollbar-color: white;
+::-webkit-scrollbar {
+  width: 7px;
+  scrollbar-color: white;
 }
 ::-webkit-scrollbar-thumb {
-    background: black; 
-    border-radius: 10px;
-  }
-  
+  background: black;
+  border-radius: 10px;
+}
 
-::selection{
-    color: white;
-    background: #000;
+::selection {
+  color: white;
+  background: #000;
 }
-body{
-    
-}
+
+/* .dark {
+  @apply bg-gray-800
+} */

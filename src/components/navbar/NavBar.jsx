@@ -53,8 +53,9 @@ const NavBar = ({toggleDarkMode,darkMode}) => {
       } `}
     >
       <nav className=" container m-auto flex items-center justify-between">
-        <div className="logo">
+        <div data-aos="fade-down" className="logo">
           <Link
+          
             onClick={() => window.scrollTo(0, 0)}
             to="/"
             className="text-3xl font-bold sm:text-3xl"
@@ -62,7 +63,7 @@ const NavBar = ({toggleDarkMode,darkMode}) => {
             Portfolio.
           </Link>
         </div>
-        <div className="nav-items flex items-center space-x-11">
+        <div data-aos="fade-down" className="nav-items flex items-center space-x-11">
           <BsFillSunFill
             darkMode={darkMode}
             onClick={toggleDarkMode}

@@ -3,6 +3,7 @@ import React from "react";
 const SkillBox = ({ logo, black, white, skill }) => {
   return (
     <div
+    data-aos="zoom-in"
       className={
         "box w-[11rem] h-[11rem] rounded-lg bg-" +
         black +

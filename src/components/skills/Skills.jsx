@@ -17,20 +17,20 @@ const Skills = ({darkMode}) => {
     <div id="skills">
       <div className=" container m-auto  mt-16">
         {/* heading */}
-        <div className="relative mb-5">
+        <div data-aos="fade-up" className="relative mb-5">
           <h3 className=" text-3xl font-black text-gray-400 sm:text-2xl">
             My Skills
           </h3>
           <span className="h-[1.1px] right-0 absolute w-[90%] bg-gray-300 block"></span>
         </div>
         {/* content*/}
-        <div className="flex sm:flex-col ">
+        <div  className="flex sm:flex-col ">
           <div className="left flex-1 w-full">
-            <p className=" text-gray-700 font-medium w-[100%]">
+            <p data-aos="fade-up" className=" text-gray-700 font-medium w-[100%]">
               Here are my skills.
             </p>
             {/* left box */}
-            <div className="progress flex items-center h-[100%] justify-end sm:justify-center">
+            <div data-aos="zoom-in" className="progress flex items-center h-[100%] justify-end sm:justify-center">
               <div className=" flex flex-col gap-6  w-3/4  my-5 sm:w-[90%]">
                 <ProgressBar logo={<IoLogoHtml5 />} name={"HTML"} value={90} />
                 <ProgressBar logo={<IoLogoCss3 />} name={"CSS"} value={80} />
@@ -52,12 +52,14 @@ const Skills = ({darkMode}) => {
           <div className="right relative flex-1 flex flex-wrap p-5 gap-10 items-center justify-center sm:w-full">
             <div className="first2 flex flex-col gap-10">
               <SkillBox
+              
                 logo={<IoLogoNodejs />}
                 black={"white"}
                 white={"black"}
                 skill={"Node JS"}
               />
               <SkillBox
+              
                 logo={<IoLogoPython />}
                 black={"white"}
                 white={"black"}
@@ -66,12 +68,14 @@ const Skills = ({darkMode}) => {
             </div>
             <div className="last2 flex flex-col gap-10">
               <SkillBox
+              
                 logo={<SiCanva />}
                 black={"black"}
                 white={"white"}
                 skill={"Canva design"}
               />
               <SkillBox
+              
                 logo={<SiTypescript />}
                 black={"black"}
                 white={"white"}

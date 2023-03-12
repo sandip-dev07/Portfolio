@@ -19,39 +19,42 @@ const Contact = () => {
             <div data-aos="zoom-in">
               <h1 className="text-6xl font-bold sm:text-3xl">You Need</h1>
               <h3 className="text-xl sm:text-lg">
-                Beautiful design for your website leave a request
+                Beautiful design lfor your website leave a request
               </h3>
             </div>
           </div>
           <div className=" flex p-5 items-center justify-center ">
-            <button data-aos="zoom-in" className="text-yellow-500 font-extrabold text-3xl p-2 rounded-lg shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] sm:rotate-90">
+            <button
+              data-aos="zoom-in"
+              className="text-yellow-500 font-extrabold text-3xl p-2 rounded-lg shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] md:rotate-90"
+            >
               <BsArrowRight />
             </button>
           </div>
         </div>
         <div className="right flex-1">
           <form
-          data-aos="zoom-in"
-            className="flex justify-center items-center flex-col gap-5 w-[70%] sm:w-[95%] mx-auto"
+            data-aos="zoom-in"
+            className="flex justify-center items-center flex-col gap-5 w-[70%] md:w-[100%] sm:w-[95%] mx-auto"
             action="mailto:sarkarsandip97740@gmail.com"
           >
             <input
               className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
               type="email"
-              placeholder="your email"
+              placeholder="e.g. example@email.com"
               name=""
             />
             <input
               className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
               type="text"
-              placeholder="your name"
+              placeholder="e.g. John Doe"
               name=""
             />
             <textarea
               className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
               rows="4"
               cols="50"
-              placeholder="your message"
+              placeholder="Write your message"
               name=""
               id=""
             />

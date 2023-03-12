@@ -64,34 +64,36 @@ const NavBar = ({toggleDarkMode,darkMode}) => {
           </Link>
         </div>
         <div data-aos="fade-down" className="nav-items flex items-center space-x-11">
+          {/* darkmode */}
           <BsFillSunFill
             darkMode={darkMode}
             onClick={toggleDarkMode}
             className="cursor-pointer text-xl hidden"
           />
+          {/* hamburger */}
           <button
             onClick={toggleNav}
-            className="cursor-pointer text-2xl hidden sm:block"
+            className="cursor-pointer text-2xl hidden md:block"
           >
             <HiMenu />
           </button>
 
           <ul
             className={`flex items-center space-x-11 ${
-              !isOpen ? "sm:flex" : "sm:right-[0%]"
-            } sm:flex-col sm:absolute m-auto sm:top-0 sm:right-[-100%] sm:w-[78%] sm:h-screen sm:bg-white `}
+              !isOpen ? "md:flex" : "md:right-[0%]"
+            } md:flex-col md:absolute m-auto md:top-0 md:right-[-100%] md:w-[78%] md:h-screen md:bg-white `}
           >
             {/* Use a button tag for better accessibility */}
             <button
               onClick={toggleNav}
-              className={`text-3xl hidden sm:block relative right-0 top-4 container mx-auto`}
+              className={`text-3xl hidden md:block relative right-0 top-4 container mx-auto`}
             >
               <RxCross2 />
             </button>
             {navItems.map((item) => (
               <li
                 key={item.id}
-                className="sm:m-6 sm:flex sm:gap-6 sm:items-center sm:justify-center"
+                className="md:m-6 md:flex md:gap-6 md:items-center md:justify-center"
               >
                 {/* Use Link component instead of a tag for internal links */}
                 <a
@@ -106,7 +108,7 @@ const NavBar = ({toggleDarkMode,darkMode}) => {
             ))}
             <a
               href="https://www.linkedin.com/in/sarkar-sandip/"
-              className="bg-black text-[1rem] text-white px-8 py-2 rounded-lg font-bold hover:text-yellow-400 sm:m-5 sm:block sm:mx-auto sm:w-fit lg:px-3"
+              className="bg-black text-[1rem] text-white px-8 py-2 rounded-lg font-bold hover:text-yellow-400 md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
             >
               HIRE ME
             </a>

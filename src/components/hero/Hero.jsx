@@ -13,8 +13,8 @@ import resumePDF from "../../assets/SANDIP.pdf";
 const Hero = () => {
   return (
     <div className={` bg-gradient-to-r from-green-200 to-blue-200 `}>
-      <div className=" w-[90%] mx-auto pt-5 h-[100vh] sm:min-h-[800px] flex sm:flex-col-reverse sm:pt-0 ">
-        <div className=" left mt-4 flex-1 flex flex-col justify-center gap-5 w-1/2 sm:w-[100%]">
+      <div className=" container mx-auto pt-5 h-[750px] md:h-[100vh] md:flex-col-reverse sm:h-[780px]  flex sm:flex-col-reverse sm:pt-0 ">
+        <div className=" left mt-4 md:mt-0 flex-1 flex flex-col justify-center gap-5 w-1/2 md:w-full md:py-2 sm:py-0">
           <div className="info w-fit flex flex-col items-start justify-center gap-3 sm:gap-2">
             <h2
               data-aos="fade-up"
@@ -93,10 +93,9 @@ const Hero = () => {
             </ul>
           </div>
         </div>
-        <div className="right relative top-5 flex-1 flex items-center justify-center sm:items-end">
+        <div className="right relative top-5 flex-1 flex items-center justify-center md:items-end sm:items-end">
           <img
-            data-aos="zoom-in"
-            className="h-fit w-[90%] object-cover sm:h-fit"
+            className=" h-[85%] w-fit object-cover md:h-[90%] md:m-auto sm:m-0"
             src={mine}
             alt="mine"
           />

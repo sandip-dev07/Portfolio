@@ -1,14 +1,15 @@
 import React from "react";
-
 import { data } from "../data/data";
 
 const WorkCard = () => {
+  const reversedData = [...data].reverse();
+
   return (
     <>
-      {data.map((data) => {
+      {reversedData.map((data) => {
         return (
           <div
-          data-aos="zoom-in"
+            data-aos="zoom-in"
             key={data.id}
             className="flex flex-col justify-center items-center gap-4"
           >

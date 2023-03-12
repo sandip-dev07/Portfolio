@@ -26,7 +26,7 @@ module.exports = {
       lg: { max: "1023px" },
       // => @media (max-width: 1023px) { ... }
 
-      md: { max: "767px" },
+      md: { max: "836px" },
       // => @media (max-width: 767px) { ... }
 
       sm: { max: "639px" },
@@ -36,7 +36,6 @@ module.exports = {
     extend: {
       colors: {
         "text-yellow-500": "#ffc312",
-        textColor: ["active"],
       },
     },
   },

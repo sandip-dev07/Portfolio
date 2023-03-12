@@ -12,13 +12,16 @@ const Resume = () => {
       </div>
       <div data-aos="fade-up" className="left flex-1 w-full">
         <p className=" text-gray-700 font-medium w-[100%]">
-        Here are my experiences and qualifications.
+          Here are my experiences and qualifications.
         </p>
       </div>
       {/* card*/}
-      <div className="card-wrapper w-[90%] sm:w-full mt-5 flex sm:flex-col sm:gap-5 mx-auto ">
+      <div className="card-wrapper w-[90%] sm:w-full mt-5 flex md:flex-col sm:gap-5 mx-auto ">
         <div className="left flex-1 flex items-center justify-center">
-        <fieldset data-aos="zoom-in" className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2">
+          <fieldset
+            data-aos="zoom-in"
+            className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
+          >
             <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-yellow-500">
               Training
             </legend>
@@ -35,20 +38,27 @@ const Resume = () => {
                   Microsoft Azure AI Fundamentals
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                Coincent
+                  Coincent
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
                   Sept 2022 - Nov 2022
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                During the Microsoft Azure AI Fundamentals training, I gained a deep understanding of AI concepts and how to build and deploy AI solutions on Azure, including machine learning models and chatbots using Azure Machine Learning and Azure Bot Service.
+                  During the Microsoft Azure AI Fundamentals training, I gained
+                  a deep understanding of AI concepts and how to build and
+                  deploy AI solutions on Azure, including machine learning
+                  models and chatbots using Azure Machine Learning and Azure Bot
+                  Service.
                 </p>
               </div>
             </div>
           </fieldset>
         </div>
         <div className="right flex-1 flex items-center justify-center">
-          <fieldset data-aos="zoom-in" className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2">
+          <fieldset
+            data-aos="zoom-in"
+            className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
+          >
             <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-yellow-500">
               Education
             </legend>
@@ -65,13 +75,18 @@ const Resume = () => {
                   B.Tech, Engineering Physics
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                National Institute of Technology, Agartala
+                  National Institute of Technology, Agartala
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
                   Year 2020 - Year 2024
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
-                I'm a 3rd year B.Tech student with a sloid understanding of programming languages like HTML, CSS, Tailwind CSS, JavaScript, and React JS. I'm currently learning TypeScript and seeking an internship in Web Development to apply my knowledge and gain experience with new technologies.
+                  I'm a 3rd year B.Tech student with a sloid understanding of
+                  programming languages like HTML, CSS, Tailwind CSS,
+                  JavaScript, and React JS.Currently, I am learning backend . I
+                  am actively seeking an internship in Web Development where I
+                  can apply my knowledge of Web Development fundamentals and
+                  gain experience with new technologies.
                 </p>
               </div>
             </div>

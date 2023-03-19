@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Route } from "react-router-dom";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Hero from "./components/hero/Hero";

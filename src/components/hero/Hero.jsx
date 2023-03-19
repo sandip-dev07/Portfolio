@@ -24,7 +24,7 @@ const Hero = () => {
             </h2>
             <TypeAnimation
               data-aos="fade-up"
-              sequence={["Web Developer", 1000, "Freelancer", 2000, ""]}
+              sequence={["Frontend Developer", 1000, "Backend Developer", 1000, "Freelancer", 2000, ""]}
               speed={30}
               wrapper="h2"
               repeat={Infinity}
@@ -32,7 +32,7 @@ const Hero = () => {
             />
             <p
               data-aos="fade-up"
-              className=" text-[1.1rem] font-medium w-3/4 text-gray-600 sm:text-[1rem]"
+              className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.9rem]"
             >
               I am an undergraduate student at NIT Agartala.{" "}
             </p>
@@ -94,6 +94,15 @@ const Hero = () => {
           </div>
         </div>
         <div className="right relative top-5 flex-1 flex items-center justify-center md:items-end sm:items-end">
+          {/* <div className=" absolute top-[40%] -right-2 w-[50px] h-[50px]">
+          <img className=" w-full object-cover" src="https://img.icons8.com/color/48/null/javascript--v1.png"/>
+          </div>
+          <div className=" absolute top-[40%] left-1 w-[45px] h-[45px] ">
+          <img className=" w-full object-cover" src="https://img.icons8.com/color/48/null/c-plus-plus-logo.png"/>
+          </div>
+          <div className=" absolute top-[80%] left-8 w-[45px] h-[45px] ">
+          <img className=" w-full object-cover " src="https://img.icons8.com/color/48/null/python--v1.png"/>
+          </div> */}
           <img
             className=" h-[85%] w-fit object-cover md:h-[90%] md:m-auto sm:m-0"
             src={mine}

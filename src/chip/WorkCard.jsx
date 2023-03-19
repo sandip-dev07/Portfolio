@@ -2,7 +2,9 @@ import React from "react";
 import { data } from "../data/data";
 
 const WorkCard = () => {
-  const reversedData = [...data].reverse();
+  const reversedData = [...data]
+    .filter((item, id) => id !== 1 && id !== 3)
+    .reverse();
 
   return (
     <>

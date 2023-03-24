@@ -3,7 +3,7 @@ import { data } from "../data/data";
 
 const WorkCard = () => {
   const reversedData = [...data]
-    .filter((item, id) => id !== 1 && id !== 3)
+    .filter((item, id) => id !== 1 && id !== 3 && id!=4)
     .reverse();
 
   return (

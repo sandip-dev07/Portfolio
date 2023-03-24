@@ -4,6 +4,7 @@ import project3 from "../assets/weather.jpeg";
 import project4 from "../assets/social-clone.jpeg";
 import project6 from "../assets/MERN-expense.jpeg";
 import project7 from "../assets/ecommerce.jpeg";
+import project8 from "../assets/blog-app.png";
 
 export const data = [
   {
@@ -21,7 +22,7 @@ export const data = [
   {
     id: 3,
     img: project3,
-    title: "Weather Web",
+    title: "ReactJs Weather Web",
     link: "https://weatherwebbappp.netlify.app/",
   },
   {
@@ -31,15 +32,21 @@ export const data = [
     link: "https://reactjs-social.netlify.app/",
   },
   {
-    id: 6,
+    id: 5,
     img: project6,
     title: "MERN Expense Manager",
     link: "https://strange-sunbonnet-lamb.cyclic.app/",
   },
   {
-    id: 7,
+    id: 6,
     img: project7,
-    title: "Ecommerce web",
+    title: "ReactJs Ecommerce web",
     link: "https://redux-store-app.netlify.app/",
+  },
+  {
+    id: 7,
+    img: project8,
+    title: "MERN Stack Blog web",
+    link: "https://blog-app-a8k8.onrender.com/",
   },
 ];

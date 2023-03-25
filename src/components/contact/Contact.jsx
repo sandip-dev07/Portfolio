@@ -19,16 +19,16 @@ const Contact = () => {
             <div data-aos="zoom-in">
               <h1 className="text-6xl font-bold sm:text-3xl">You Need</h1>
               <h3 className="text-xl sm:text-lg">
-                Beautiful design lfor your website leave a request
+                Beautiful design for your website leave a request
               </h3>
             </div>
           </div>
           <div className=" flex p-5 items-center justify-center ">
             <button
               data-aos="zoom-in"
-              className="text-yellow-500 font-extrabold text-3xl p-2 rounded-lg shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] md:rotate-90"
+              className= " text-yellow-500 font-extrabold text-3xl p-2 rounded-lg shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] "
             >
-              <BsArrowRight />
+              <BsArrowRight className=" md:rotate-90" />
             </button>
           </div>
         </div>

@@ -8,9 +8,9 @@ const ProgressBar = ({ logo, name, value, duration = 3 }) => {
         <p className="text-[1.15rem] flex items-center gap-3 sm:text-[1rem] exsm:text-sm exsm:gap-3">
           {logo} {name}
         </p>{" "}
-        <span className=" text-gray-400 text-[1.1rem] sm:text-[1rem] exsm:text-sm">
+        {/* <span className=" text-gray-400 text-[1.1rem] sm:text-[1rem] exsm:text-sm">
           {value}%
-        </span>
+        </span> */}
       </div>
       <div className="h-[8px] w-[100%] relative rounded-3xl bg-gray-300">
         <Progress

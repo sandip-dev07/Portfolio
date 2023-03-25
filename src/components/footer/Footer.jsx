@@ -32,7 +32,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="sm:text-[12px]">
-          | Copyright &copy; <span>2018 Portfolio. </span> All rights resreved
+          | Copyright &copy; <span>2023 Portfolio. </span> All rights resreved
           <a href="#"></a> |
         </div>
       </div>

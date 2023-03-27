@@ -47,6 +47,6 @@ export const data = [
     id: 7,
     img: project8,
     title: "MERN Stack Blog web",
-    link: "https://blog-app-a8k8.onrender.com/",
+    link: "https://chocolate-ladybug-belt.cyclic.app",
   },
 ];

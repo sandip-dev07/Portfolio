@@ -26,13 +26,13 @@ const WorkCard = () => {
                 className="h-[280px] w-[380px] shadow-xl rounded-xl overflow-hidden sm:h-[260px] sm:w-[92%] sm:bg-cover mx-auto "
               />
               <div className='popup h-[280px] w-fit shadow-xl rounded-xl overflow-hidden sm:h-[260px] sm:w-[92%] p-4' >
-                <p className=" text-gray-500 text-base text-justify">{data.desc}</p>
+                <p className=" text-gray-500 text-base leading-[1.4] text-justify">{data.desc}</p>
                 <div className=" flex items-center justify-center gap-4">
-                  <Link to={data.link} className=" bg-gray-100 mt-4 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium">
+                  <Link to={data.link} className=" bg-gray-100 mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium">
                     <RxExternalLink />
                     <p>Demo</p>
                   </Link>
-                  <button className=" bg-gray-100 mt-4 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium">
+                  <button className=" bg-gray-100 mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium">
                     <AiOutlineGithub />
                     <p>Code</p>
                   </button>

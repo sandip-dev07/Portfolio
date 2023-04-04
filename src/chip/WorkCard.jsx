@@ -1,9 +1,13 @@
 import React from "react";
+import styled from "styled-components";
 import { data } from "../data/data";
+import { RxExternalLink } from 'react-icons/rx'
+import { AiOutlineGithub } from 'react-icons/ai'
+import { Link } from "react-router-dom";
 
 const WorkCard = () => {
   const reversedData = [...data]
-    .filter((item, id) => id !== 1 && id !== 3 && id!=4)
+    .filter((item, id) => id !== 1 && id !== 3 && id != 4)
     .reverse();
 
   return (
@@ -15,13 +19,26 @@ const WorkCard = () => {
             key={data.id}
             className="flex flex-col justify-center items-center gap-4"
           >
-            <a href={data.link}>
+            <POPUP className='img-content relative'>
               <img
                 src={data.img}
                 alt={data.title}
-                className="h-[280px] w-[380px] shadow-xl rounded-xl overflow-hidden sm:h-[260px] sm:w-[92%] sm:bg-cover mx-auto hover:scale-105"
+                className="h-[280px] w-[380px] shadow-xl rounded-xl overflow-hidden sm:h-[260px] sm:w-[92%] sm:bg-cover mx-auto "
               />
-            </a>
+              <div className='popup h-[280px] w-fit shadow-xl rounded-xl overflow-hidden sm:h-[260px] sm:w-[92%] p-4' >
+                <p className=" text-gray-500 text-base text-justify">{data.desc}</p>
+                <div className=" flex items-center justify-center gap-4">
+                  <Link to={data.link} className=" bg-gray-100 mt-4 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium">
+                    <RxExternalLink />
+                    <p>Demo</p>
+                  </Link>
+                  <button className=" bg-gray-100 mt-4 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium">
+                    <AiOutlineGithub />
+                    <p>Code</p>
+                  </button>
+                </div>
+              </div>
+            </POPUP>
             <p className="text-gray-800 text-xl font-medium sm:text-lg">
               {data.title}
             </p>
@@ -33,3 +50,21 @@ const WorkCard = () => {
 };
 
 export default WorkCard;
+
+const POPUP = styled.div`
+  position: relative;
+  .popup{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    margin: auto;
+    transition: .5s ease;
+    background-color: #fff;
+  }
+  &:hover .popup{
+    opacity: 1;
+  }
+`

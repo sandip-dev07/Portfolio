@@ -59,7 +59,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
     >
       <nav className=" container m-auto flex items-center justify-between">
         <div 
-        // data-aos="fade-down"
+        data-aos="fade-down"
          className="logo">
           <Link
 
@@ -71,7 +71,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
           </Link>
         </div>
         <div 
-        // data-aos="fade-down"
+        data-aos="fade-down"
          className="nav-items flex items-center space-x-11">
           {/* darkmode */}
           <BsFillSunFill

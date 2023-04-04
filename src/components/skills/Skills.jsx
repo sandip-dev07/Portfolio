@@ -19,7 +19,7 @@ const Skills = ({ darkMode }) => {
       <div className=" container m-auto  mt-16">
         {/* heading */}
         <div 
-        // data-aos="fade-up"
+        data-aos="fade-up"
          className="relative mb-5">
           <h3 className=" text-3xl font-black text-gray-400 sm:text-2xl">
             My Skills
@@ -30,14 +30,14 @@ const Skills = ({ darkMode }) => {
         <div className="flex md:flex-col ">
           <div className="left flex-1 w-full">
             <p
-              // data-aos="fade-up"
+              data-aos="fade-up"
               className=" text-gray-700 font-medium w-[100%]"
             >
               Here are my skills.
             </p>
             {/* left box */}
             <div
-              // data-aos="zoom-in"
+              data-aos="zoom-in"
               className="progress flex items-center h-[100%] justify-end md:justify-center"
             >
               <div className=" flex flex-col gap-6  w-3/4  my-5 md:w-[90%]">

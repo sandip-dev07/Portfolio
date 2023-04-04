@@ -15,7 +15,7 @@ const WorkCard = () => {
       {reversedData.map((data) => {
         return (
           <div
-            data-aos="zoom-in"
+            // data-aos="zoom-in"
             key={data.id}
             className="flex flex-col justify-center items-center gap-4"
           >

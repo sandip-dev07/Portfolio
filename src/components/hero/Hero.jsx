@@ -31,7 +31,7 @@ const Hero = () => {
               className="text-yellow-500 text-4xl font-bold sm:text-3xl"
             />
             <p
-              data-aos="fade-up"
+              // data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.9rem]"
             >
               I am an undergraduate student at NIT Agartala.{" "}

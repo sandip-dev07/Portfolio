@@ -109,10 +109,10 @@ const Hero = () => {
               src={mine}
               alt="mine"
             />
-            <div className=" absolute bottom-7 md:bottom-3 right-8 md:right-2">
+            <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">
               <div data-aos="zoom-in" data-aos-duration="1000"  className=" relative cursor-pointer">
                 <img
-                  className=" w-[150px] md:w-[90px] circle-text"
+                  className=" w-[135px] md:w-[90px] circle-text"
                   src="https://i.postimg.cc/WzY654gC/Full-Stack-Developer.png"
                   alt=""
                 />

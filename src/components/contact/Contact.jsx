@@ -1,5 +1,6 @@
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
+import { RiSendPlaneFill } from "react-icons/ri";
 
 const Contact = () => {
   return (
@@ -67,10 +68,11 @@ const Contact = () => {
               id=""
             />
             <button
-              className="bg-yellow-500 w-full text-white p-2 rounded-lg"
+              className="bg-yellow-500 w-full text-white font-semibold  p-2 rounded-lg flex items-center justify-center space-x-1"
               type="submit"
             >
-              Send
+              <span>Send</span>
+              <RiSendPlaneFill/>
             </button>
           </form>
         </div>

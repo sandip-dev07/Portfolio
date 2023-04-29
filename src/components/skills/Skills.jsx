@@ -10,6 +10,7 @@ import {
   SiExpress,
 } from "react-icons/si";
 import { GrCode } from "react-icons/gr";
+import { SiNextdotjs } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { IoLogoNodejs } from "react-icons/io";
 
@@ -18,9 +19,7 @@ const Skills = ({ darkMode }) => {
     <div id="skills">
       <div className=" container m-auto  mt-16">
         {/* heading */}
-        <div 
-        data-aos="fade-up"
-         className="relative mb-5">
+        <div data-aos="fade-up" className="relative mb-5">
           <h3 className=" text-3xl font-black text-gray-400 sm:text-2xl">
             My Skills
           </h3>
@@ -48,7 +47,7 @@ const Skills = ({ darkMode }) => {
                   name={"Javascript"}
                   value={80}
                 />
-                <ProgressBar logo={<FaReact />} name={"React JS"} value={80} />
+                <ProgressBar logo={<FaReact />} name={"React Js"} value={80} />
                 <ProgressBar
                   logo={<SiTailwindcss />}
                   name={"Tailwind CSS"}
@@ -81,10 +80,13 @@ const Skills = ({ darkMode }) => {
                 skill={"Express Js"}
               />
               <SkillBox
-                logo={<GrCode />}
+                className=""
+                logo={
+                  <SiNextdotjs className=" text-white bg-black rounded-full h-fit border-white overflow-hidden" />
+                }
                 black={"black"}
                 white={"white"}
-                skill={"C++"}
+                skill={"Next Js"}
               />
             </div>
           </div>

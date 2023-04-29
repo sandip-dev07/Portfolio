@@ -10,6 +10,7 @@ import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "../../assets/SANDIP.pdf";
+import { data } from './../../data/data';
 
 const Hero = () => {
   return (
@@ -103,12 +104,13 @@ const Hero = () => {
         <div className="right  top-5 flex-1 flex items-center justify-center md:items-end sm:items-end">
           <div className="relative h-[88%] w-fit flex items-center sm:items-end">
             <img
+            data-aos="fade-up"
               className=" h-[90%] w-full object-cover md:h-[95%] md:m-auto sm:m-0"
               src={mine}
               alt="mine"
             />
             <div className=" absolute bottom-7 md:bottom-3 right-8 md:right-2">
-              <div data-aos="zoom-in"  className=" relative cursor-pointer">
+              <div data-aos="zoom-in" data-aos-duration="1000"  className=" relative cursor-pointer">
                 <img
                   className=" w-[150px] md:w-[90px] circle-text"
                   src="https://i.postimg.cc/WzY654gC/Full-Stack-Developer.png"

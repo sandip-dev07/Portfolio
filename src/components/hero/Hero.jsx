@@ -7,6 +7,7 @@ import {
 } from "react-icons/ai";
 import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
+import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "../../assets/SANDIP.pdf";
 
@@ -24,31 +25,35 @@ const Hero = () => {
             </h2>
             <TypeAnimation
               data-aos="fade-up"
-              sequence={["Frontend Developer", 1000, "Backend Developer", 1000, "Freelancer", 2000, ""]}
+              sequence={[
+                "Web Developer",
+                2000,
+                "Freelancer",
+                2000,
+                "",
+              ]}
               speed={30}
               wrapper="h2"
               repeat={Infinity}
               className="text-yellow-500 text-4xl font-bold sm:text-3xl"
             />
             <p
-              data-aos="fade-up"
-              className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.9rem]"
+              // data-aos="fade-up"
+              className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.84rem]"
             >
               I am an undergraduate student at NIT Agartala.{" "}
             </p>
           </div>
-          <div 
-          data-aos="fade-up"
-           className="buttons flex gap-5">
+          <div data-aos="fade-up" className="buttons flex gap-5">
             <a
               href="https://www.linkedin.com/in/sarkar-sandip/"
-              className=" bg-black text-[1rem] text-white px-10 py-2 rounded-lg font-bold  hover:text-yellow-500"
+              className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-yellow-500"
             >
-              <span> Hire Me</span> 
+              <span> Hire Me</span>
             </a>
             <a
               href={resumePDF}
-              className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 rounded-lg font-bold  hover:text-yellow-500"
+              className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-yellow-500"
               download
             >
               <div className="flex items-center gap-1">
@@ -95,21 +100,26 @@ const Hero = () => {
             </ul>
           </div>
         </div>
-        <div className="right relative top-5 flex-1 flex items-center justify-center md:items-end sm:items-end">
-          {/* <div className=" absolute top-[40%] -right-2 w-[50px] h-[50px]">
-          <img className=" w-full object-cover" src="https://img.icons8.com/color/48/null/javascript--v1.png"/>
+        <div className="right  top-5 flex-1 flex items-center justify-center md:items-end sm:items-end">
+          <div className="relative h-[88%] w-fit flex items-center sm:items-end">
+            <img
+              className=" h-[90%] w-full object-cover md:h-[95%] md:m-auto sm:m-0"
+              src={mine}
+              alt="mine"
+            />
+            <div className=" absolute bottom-7 md:bottom-3 right-8 md:right-2">
+              <div data-aos="zoom-in"  className=" relative cursor-pointer">
+                <img
+                  className=" w-[150px] md:w-[90px] circle-text"
+                  src="https://i.postimg.cc/WzY654gC/Full-Stack-Developer.png"
+                  alt=""
+                />
+                <FaPlay
+                  className=" text-white absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+                />
+              </div>
+            </div>
           </div>
-          <div className=" absolute top-[40%] left-1 w-[45px] h-[45px] ">
-          <img className=" w-full object-cover" src="https://img.icons8.com/color/48/null/c-plus-plus-logo.png"/>
-          </div>
-          <div className=" absolute top-[80%] left-8 w-[45px] h-[45px] ">
-          <img className=" w-full object-cover " src="https://img.icons8.com/color/48/null/python--v1.png"/>
-          </div> */}
-          <img
-            className=" h-[85%] w-fit object-cover md:h-[90%] md:m-auto sm:m-0"
-            src={mine}
-            alt="mine"
-          />
         </div>
       </div>
     </div>

@@ -50,11 +50,7 @@ const Resume = () => {
                   Sept 2022 - Nov 2022
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                  During the Microsoft Azure AI Fundamentals training, I gained
-                  a deep understanding of AI concepts and how to build and
-                  deploy AI solutions on Azure, including machine learning
-                  models and chatbots using Azure Machine Learning and Azure Bot
-                  Service.
+                During my Microsoft Azure AI Fundamentals training, I gained a comprehensive understanding of AI concepts, as well as the skills necessary to build and deploy AI solutions on Azure. This included creating machine learning models and chatbots using Azure Machine Learning and Azure Bot Service.
                 </p>
               </div>
             </div>

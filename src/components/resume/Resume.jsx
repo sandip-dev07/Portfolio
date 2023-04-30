@@ -89,12 +89,7 @@ const Resume = () => {
                   Year 2020 - Year 2024
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
-                  I'm a 3rd year B.Tech student with a sloid understanding of
-                  programming languages like HTML, CSS, Tailwind CSS,
-                  JavaScript, and React JS.Currently, I am learning backend . I
-                  am actively seeking an internship in Web Development where I
-                  can apply my knowledge of Web Development fundamentals and
-                  gain experience with new technologies.
+                As an undergraduate student, I have a good understanding of web development technologies such as HTML, CSS, Tailwind CSS, JavaScript, and React JS. Additionally, I'm proficient in backend technologies such as Node.js, Express.js, and MongoDB. I also have skills in C++ and problem-solving using Data structures and Algorithms.
                 </p>
               </div>
             </div>

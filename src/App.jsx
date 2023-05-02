@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Suspense } from "react";
 const Home = React.lazy(() => import("./pages/Home"));
-import UseAnimations from "react-useanimations";
-import loading from "react-useanimations/lib/infinity";
-import ClipLoader from "react-spinners/ClipLoader";
+// import UseAnimations from "react-useanimations";
+// import loading from "react-useanimations/lib/infinity";
+// import ClipLoader from "react-spinners/ClipLoader";
 import { BarLoader } from "react-spinners";
 
 const App = () => {

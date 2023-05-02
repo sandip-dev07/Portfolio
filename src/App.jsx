@@ -1,22 +1,33 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Suspense } from "react";
-const Home = React.lazy(() => import("./pages/Home"));
-// import UseAnimations from "react-useanimations";
-// import loading from "react-useanimations/lib/infinity";
-// import ClipLoader from "react-spinners/ClipLoader";
 import { BarLoader } from "react-spinners";
+import Home from "./pages/Home";
 
 const App = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <Suspense
       fallback={
-        <div className=" h-screen w-full flex items-center justify-center">
-          {/* <UseAnimations animation={loading} size={60} /> */}
+        <div className="h-screen w-full flex items-center justify-center">
           <BarLoader color="#f6c400" height={4} />
         </div>
       }
     >
-      <Home />
+      {loading ? (
+        <div className="h-screen w-full flex items-center justify-center">
+          <BarLoader color="#f6c400" height={4} />
+        </div>
+      ) : (
+        <Home />
+      )}
     </Suspense>
   );
 };

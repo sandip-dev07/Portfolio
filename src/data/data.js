@@ -34,6 +34,7 @@ export const data = [
     id: 4,
     img: project4,
     title: "Social Media Clone",
+    desc: "This is a web application clone of a social media platform, built using React JS, CSS, and Material UI.",
     link: "https://reactjs-social.netlify.app/",
     git: "",
   },

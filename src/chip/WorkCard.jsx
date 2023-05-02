@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const WorkCard = () => {
   const reversedData = [...data]
-    .filter((item, id) => id !== 1 && id !== 3 && id != 4)
+    .filter((item, id) => id !== 1 && id != 4)
     .reverse();
 
   return (

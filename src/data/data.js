@@ -9,7 +9,7 @@ import project8 from "../assets/blog-app.png";
 export const data = [
   {
     id: 1,
-    img: project1,
+    img: 'https://ik.imagekit.io/imgkitt/tr:w-800/hotel-kusum.jpeg?updatedAt=1683134012764',
     title: "Hotel Website (Live)",
     desc: "I made this hotel website for a client, using HTML, CSS, JavaScript and it is responsive. It is also live.",
     link: "https://kusumpalace.com/",
@@ -24,7 +24,7 @@ export const data = [
   },
   {
     id: 3,
-    img: project3,
+    img: 'https://ik.imagekit.io/imgkitt/tr:w-800/weather.jpeg?updatedAt=1683134012969',
     title: "ReactJs Weather Web",
     desc: "I developed a weather web application using React.js that utilizes the Fetch API and includes PWA (Progressive Web App) functionality.",
     link: "https://weatherwebbappp.netlify.app/",
@@ -32,7 +32,7 @@ export const data = [
   },
   {
     id: 4,
-    img: project4,
+    img: "https://ik.imagekit.io/imgkitt/tr:w-800/social-clone.jpeg?updatedAt=1683134012671",
     title: "Social Media Clone",
     desc: "This is a web application clone of a social media platform, built using React JS, CSS, and Material UI.",
     link: "https://reactjs-social.netlify.app/",
@@ -47,7 +47,7 @@ export const data = [
   },
   {
     id: 6,
-    img: project7,
+    img: 'https://ik.imagekit.io/imgkitt/tr:w-800/ecommerce.jpeg?updatedAt=1683134011136',
     title: "ReactJs Ecommerce web",
     desc: "This is an e-commerce web application built using React JS, SCSS, Redux Toolkit, and a Dummy JSON API. It includes search functionality, as well as the ability to add and remove items from a shopping cart.",
     link: "https://redux-store-app.netlify.app/",
@@ -55,7 +55,7 @@ export const data = [
   },
   {
     id: 7,
-    img: project8,
+    img: 'https://ik.imagekit.io/imgkitt/tr:w-800/blog-app.png?updatedAt=1683134012214',
     title: "MERN Stack Blog web",
     desc: "This is a full-stack web application that uses ReactJS, Tailwind CSS, ExpressJS, and MongoDB. The application features user authentication and enables users to create, edit, and delete their own posts, as well as view posts created by others.",
     link: "https://chocolate-ladybug-belt.cyclic.app",

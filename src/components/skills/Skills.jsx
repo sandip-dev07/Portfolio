@@ -3,6 +3,8 @@ import ProgressBar from "../../chip/ProgressBar";
 import SkillBox from "../../chip/SkillBox";
 
 import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
+
+
 import {
   SiJavascript,
   SiTailwindcss,

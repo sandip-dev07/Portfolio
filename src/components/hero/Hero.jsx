@@ -106,14 +106,15 @@ const Hero = () => {
             <img
             data-aos="fade-up"
               className=" h-[90%] w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src={mine}
+              src='https://ik.imagekit.io/imgkitt/tr:w-1200/mine-min.png?updatedAt=1683134786173'
+              // src={mine}
               alt="mine"
             />
             <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">
               <div data-aos="zoom-in" data-aos-duration="1000"  className=" relative cursor-pointer">
                 <img
                   className=" w-[135px] md:w-[90px] circle-text"
-                  src="https://i.postimg.cc/TPg5sZ17/Full-Stack-Developer2.png"
+                  src="https://ik.imagekit.io/imgkitt/tr:w-400/Full_Stack_Developer2.png?updatedAt=1683134009107"
                   alt=""
                 />
                 <FaPlay

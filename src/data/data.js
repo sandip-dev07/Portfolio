@@ -32,10 +32,10 @@ export const data = [
   },
   {
     id: 4,
-    img: "https://ik.imagekit.io/imgkitt/tr:w-800/social-clone.jpeg?updatedAt=1683134012671",
-    title: "Social Media Clone",
-    desc: "This is a web application clone of a social media platform, built using React JS, CSS, and Material UI.",
-    link: "https://reactjs-social.netlify.app/",
+    img: "https://ik.imagekit.io/imgkitt/nike.JPG?updatedAt=1683563311643",
+    title: "NextJs Nike Clone",
+    desc: "This Nike clone has been built with the help of Next.js and Tailwind CSS..",
+    link: "https://nike-clones.vercel.app/",
     git: "",
   },
   {

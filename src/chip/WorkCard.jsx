@@ -32,10 +32,10 @@ const WorkCard = () => {
                     <RxExternalLink />
                     <p>Demo</p>
                   </Link>
-                  <button className=" bg-gray-100 mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium">
+                  <Link to={data.link} className=" bg-gray-100 mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium">
                     <AiOutlineGithub />
                     <p>Code</p>
-                  </button>
+                  </Link>
                 </div>
               </div>
             </POPUP>

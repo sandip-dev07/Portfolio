@@ -55,7 +55,7 @@ export const data = [
   },
   {
     id: 7,
-    img: 'https://ik.imagekit.io/imgkitt/tr:w-800/blog-app.png?updatedAt=1683134012214',
+    img: 'https://ik.imagekit.io/imgkitt/mobile.png?updatedAt=1685388082890',
     title: "MERN Stack Blog web",
     desc: "This is a full-stack web application that uses ReactJS, Tailwind CSS, ExpressJS, and MongoDB. The application features user authentication and enables users to create, edit, and delete their own posts, as well as view posts created by others.",
     link: "https://chocolate-ladybug-belt.cyclic.app",

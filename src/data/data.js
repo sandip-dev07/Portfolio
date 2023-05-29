@@ -33,7 +33,7 @@ export const data = [
   {
     id: 4,
     img: "https://ik.imagekit.io/imgkitt/nike.JPG?updatedAt=1683563311643",
-    title: "NextJs Nike Clone",
+    title: "Nike Clone (NextJs)",
     desc: "This Nike clone has been built with the help of Next.js and Tailwind CSS..",
     link: "https://nike-clones.vercel.app/",
     git: "",
@@ -48,7 +48,7 @@ export const data = [
   {
     id: 6,
     img: 'https://ik.imagekit.io/imgkitt/tr:w-800/ecommerce.jpeg?updatedAt=1683134011136',
-    title: "ReactJs Ecommerce web",
+    title: "Ecommerce web",
     desc: "This is an e-commerce web application built using React JS, SCSS, Redux Toolkit, and a Dummy JSON API. It includes search functionality, as well as the ability to add and remove items from a shopping cart.",
     link: "https://redux-store-app.netlify.app/",
     git: "https://github.com/SandipNITA2025/react-redux-ecommerce",
@@ -56,7 +56,7 @@ export const data = [
   {
     id: 7,
     img: 'https://ik.imagekit.io/imgkitt/mobile.png?updatedAt=1685388082890',
-    title: "MERN Stack Blog web",
+    title: "Blog Web (MERN Stack)",
     desc: "This is a full-stack web application that uses ReactJS, Tailwind CSS, ExpressJS, and MongoDB. The application features user authentication and enables users to create, edit, and delete their own posts, as well as view posts created by others.",
     link: "https://chocolate-ladybug-belt.cyclic.app",
     git: "https://github.com/SandipNITA2025/MERN-STACK---BLOG-POST-WEB",

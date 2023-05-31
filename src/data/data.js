@@ -25,7 +25,7 @@ export const data = [
   {
     id: 3,
     img: 'https://ik.imagekit.io/imgkitt/tr:w-800/weather.jpeg?updatedAt=1683134012969',
-    title: "ReactJs Weather Web",
+    title: "Weather Web",
     desc: "I developed a weather web application using React.js that utilizes the Fetch API and includes PWA (Progressive Web App) functionality.",
     link: "https://weatherwebbappp.netlify.app/",
     git: "https://github.com/SandipNITA2025/weather-app",
@@ -48,7 +48,7 @@ export const data = [
   {
     id: 6,
     img: 'https://ik.imagekit.io/imgkitt/tr:w-800/ecommerce.jpeg?updatedAt=1683134011136',
-    title: "Ecommerce web",
+    title: "Ecommerce Clone",
     desc: "This is an e-commerce web application built using React JS, SCSS, Redux Toolkit, and a Dummy JSON API. It includes search functionality, as well as the ability to add and remove items from a shopping cart.",
     link: "https://redux-store-app.netlify.app/",
     git: "https://github.com/SandipNITA2025/react-redux-ecommerce",

@@ -10,7 +10,7 @@ import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "../../assets/SANDIP.pdf";
-import { data } from './../../data/data';
+import { data } from "./../../data/data";
 
 const Hero = () => {
   return (
@@ -26,13 +26,7 @@ const Hero = () => {
             </h2>
             <TypeAnimation
               data-aos="fade-up"
-              sequence={[
-                "Web Developer",
-                2000,
-                "Freelancer",
-                2000,
-                "",
-              ]}
+              sequence={["Web Developer", 2000, "Freelancer", 2000, ""]}
               speed={30}
               wrapper="h2"
               repeat={Infinity}
@@ -104,22 +98,26 @@ const Hero = () => {
         <div className="right  top-5 flex-1 flex items-center justify-center md:items-end sm:items-end">
           <div className="relative h-[88%] w-fit flex items-center sm:items-end">
             <img
-            data-aos="fade-up"
+              loading="lazy"
+              data-aos="fade-up"
               className=" h-[90%] w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src='https://ik.imagekit.io/imgkitt/tr:w-1200/mine-min.png?updatedAt=1683134786173'
+              src="https://ik.imagekit.io/imgkitt/tr:w-1200/mine-min.png?updatedAt=1683134786173"
               // src={mine}
               alt="mine"
             />
             <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">
-              <div data-aos="zoom-in" data-aos-duration="1000"  className=" relative cursor-pointer">
+              <div
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+                className=" relative cursor-pointer"
+              >
                 <img
+                  loading="lazy"
                   className=" w-[135px] md:w-[90px] circle-text"
                   src="https://ik.imagekit.io/imgkitt/tr:w-400/Full_Stack_Developer2.png?updatedAt=1683134009107"
                   alt=""
                 />
-                <FaPlay
-                  className=" text-black absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
-                />
+                <FaPlay className=" text-black absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]" />
               </div>
             </div>
           </div>

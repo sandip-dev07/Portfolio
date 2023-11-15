@@ -41,7 +41,7 @@ const Resume = () => {
                 Drafteq Engineering
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                  May 2023 - Present
+                  May 2023 - Aug 2023
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
                 In my current internship at Drafteq Engineering, I'm working as a Full Stack Developer focusing on the frontend development using React JS, where I work on creating interactive and user-friendly interfaces. Additionally, I am responsible for building the backend API using Node.js, Express.js, and MongoDB, enabling data storage and retrieval for the application.

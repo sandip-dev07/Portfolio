@@ -16,7 +16,7 @@ const Contact = () => {
       </div>
 
       {/* card*/}
-      <div className="card-wrapper w-[90%] sm:w-[100%] mx-auto mt-5 flex items-center justify-center sm:flex-col">
+      <div className="card-wrapper  w-[90%] sm:w-[100%] mx-auto mt-16 flex items-center justify-center sm:flex-col">
         <div className="left w-[70%] flex-1 flex items-center justify-center sm:flex-col sm:w-full">
           <div className="flex-3 w-1/2 gap-3 flex items-end justify-end  flex-col sm:w-3/4">
             <div 

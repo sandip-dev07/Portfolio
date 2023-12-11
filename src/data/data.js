@@ -65,7 +65,7 @@ export const data = [
     id: 8,
     img: "https://ik.imagekit.io/imgkitt/indohype.JPG?updatedAt=1702276135123",
     title: "Indohype (Live)",
-    desc: "Indohype: Your go-to hub for the freshest news and captivating blogs. Stay in the loop with our diverse range of articles covering a wide array of topics. Explore the world of information and entertainment at Indohype today!",
+    desc: "Thrilled to unveil a dynamic Full Stack masterpiece—sleek User panel, Admin panel, and robust backend APIs for the Indohype website. Excited to deliver top-notch functionality for our client's digital journey!",
     link: "https://www.indohype.com/",
     git: "",
   },

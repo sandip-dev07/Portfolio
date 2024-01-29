@@ -5,7 +5,7 @@ const SkillBox = ({ logo, black, white, skill }) => {
     <div
     data-aos="zoom-in" data-aos-duration="1000"
       className={
-        "box w-[11rem] h-[11rem] rounded-lg bg-" +
+        "z-[] box w-[11rem] h-[11rem] rounded-lg bg-" +
         black +
         " text-" +
         white +
@@ -23,7 +23,7 @@ const SkillBox = ({ logo, black, white, skill }) => {
       >
         {logo}
       </div>
-      <p className="font-semibold exsm:text-sm">{skill}</p>
+      <p className=" exsm:text-sm font-poppins font-medium">{skill}</p>
     </div>
   );
 };

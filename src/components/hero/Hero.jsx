@@ -9,7 +9,7 @@ import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import resumePDF from "../../assets/Sarkar_Sandip.pdf";
+import resumePDF from "../../assets/Sandip_Sarkar.pdf";
 import { data } from "./../../data/data";
 
 const Hero = () => {
@@ -20,13 +20,24 @@ const Hero = () => {
           <div className="info w-fit flex flex-col items-start justify-center gap-3 sm:gap-2">
             <h2
               data-aos="fade-up"
-              className=" text-5xl font-bold sm:text-[2rem]"
+              className=" text-5xl font-semibold sm:text-[2rem] font-[]"
             >
-              Hello, I am Sandip Sarkar
+              Hello, I'm{" "}
+              <span className="text-yellow- font-bold font-mono">
+                {" "}
+                {"{"}Sandip Sarkar{"}"}
+              </span>
             </h2>
             <TypeAnimation
               data-aos="fade-up"
-              sequence={["Web Developer", 2000, "Freelancer", 2000, ""]}
+              sequence={[
+                "Web Developer",
+                2000,
+                "Freelancer",
+                2000,
+                "Content Creator",
+                2000,
+              ]}
               speed={30}
               wrapper="h2"
               repeat={Infinity}
@@ -36,7 +47,7 @@ const Hero = () => {
               // data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
-              I'm an undergraduate student at NIT Agartala.{" "}
+              Final-year undergraduate student at NIT Agartala.{" "}
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
@@ -104,12 +115,12 @@ const Hero = () => {
             <img
               loading="lazy"
               data-aos="fade-up"
-              className=" h-[90%] w-full object-cover md:h-[95%] md:m-auto sm:m-0"
+              className=" h-[80%] w-full object-cover md:h-[95%] md:m-auto sm:m-0"
               src="https://ik.imagekit.io/imgkitt/tr:w-1200/mine-min.png?updatedAt=1683134786173"
               // src={mine}
               alt="mine"
             />
-            <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">
+            <div className=" absolute bottom-12 md:bottom-3 right-10 md:right-2">
               <div
                 data-aos="zoom-in"
                 data-aos-duration="1000"
@@ -117,7 +128,7 @@ const Hero = () => {
               >
                 <img
                   loading="lazy"
-                  className=" w-[135px] md:w-[90px] circle-text"
+                  className=" w-[120px] md:w-[90px] circle-text"
                   src="https://ik.imagekit.io/imgkitt/tr:w-400/Full_Stack_Developer2.png?updatedAt=1683134009107"
                   alt=""
                 />

@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const WorkCard = () => {
   const reversedData = [...data]
-    .filter((item, id) => id !== 1 && id != 4)
+    .filter((item, id) => id !== 1 )
     .reverse();
 
   return (
@@ -20,7 +20,7 @@ const WorkCard = () => {
             className="flex flex-col justify-center items-center gap-4"
           >
             <POPUP className="img-content relative">
-              <div className="h-[280px] w-[380px] hover:scale-125 transition duration-500 cursor-pointer shadow-xl rounded-md overflow-hidden sm:h-[260px] sm:w-[92%] sm:bg-cover mx-auto ">
+              <div className="h-[280px] w-[380px] hover:scale-125 transition duration-500 cursor-pointer shadow-lg rounded-md overflow-hidden sm:h-[260px] sm:w-[92%] sm:bg-cover mx-auto ">
                 <img
                   loading="lazy"
                   src={data.img}
@@ -32,7 +32,7 @@ const WorkCard = () => {
               <div
                 className={` popup  h-[280px] w-fit shadow-xl rounded-md overflow-hidden sm:h-[260px] sm:w-[92%] p-4`}
               >
-                <p className=" text-gray-900 text-base leading-[1.4] text-justify w-[90%]">
+                <p className=" text-gray-800 text-base leading-[1.4] text-justify w-[90%] font-normal">
                   {data.desc}
                 </p>
                 <div className=" flex items-center justify-center gap-4">
@@ -56,7 +56,7 @@ const WorkCard = () => {
                 </div>
               </div>
             </POPUP>
-            <p className="text-gray-800 text-xl font-medium sm:text-lg">
+            <p className="text-gray-800 text-[1.1rem] font-medium sm:text-lg font-poppins">
               {data.title}
             </p>
           </div>

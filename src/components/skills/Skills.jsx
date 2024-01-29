@@ -3,13 +3,14 @@ import ProgressBar from "../../chip/ProgressBar";
 import SkillBox from "../../chip/SkillBox";
 
 import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
-
+import { TbBrandNextjs } from "react-icons/tb";
 
 import {
   SiJavascript,
   SiTailwindcss,
   SiMongodb,
   SiExpress,
+  SiTypescript,
 } from "react-icons/si";
 import { GrCode } from "react-icons/gr";
 import { SiNextdotjs } from "react-icons/si";
@@ -43,17 +44,22 @@ const Skills = ({ darkMode }) => {
             >
               <div className=" flex flex-col gap-6  w-3/4  my-5 md:w-[90%]">
                 <ProgressBar logo={<IoLogoHtml5 />} name={"HTML"} value={95} />
-                <ProgressBar logo={<IoLogoCss3 />} name={"CSS"} value={88} />
-                <ProgressBar
-                  logo={<SiJavascript />}
-                  name={"Javascript"}
-                  value={80}
-                />
-                <ProgressBar logo={<FaReact />} name={"React Js"} value={80} />
+                <ProgressBar logo={<IoLogoCss3 />} name={"CSS"} value={95} />
                 <ProgressBar
                   logo={<SiTailwindcss />}
                   name={"Tailwind CSS"}
-                  value={80}
+                  value={90}
+                />
+                <ProgressBar
+                  logo={<SiJavascript />}
+                  name={"Javascript"}
+                  value={85}
+                />
+                <ProgressBar logo={<FaReact />} name={"React Js"} value={85} />
+                <ProgressBar
+                  logo={<TbBrandNextjs />}
+                  name={"Next Js"}
+                  value={70}
                 />
               </div>
             </div>
@@ -69,8 +75,8 @@ const Skills = ({ darkMode }) => {
               />
               <SkillBox
                 logo={<SiMongodb />}
-                black={"white"}
-                white={"black"}
+                black={"black"}
+                white={"white"}
                 skill={"MongoDB"}
               />
             </div>
@@ -82,13 +88,11 @@ const Skills = ({ darkMode }) => {
                 skill={"Express Js"}
               />
               <SkillBox
-                className=""
-                logo={
-                  <GrCode/>
-                }
-                black={"black"}
-                white={"white"}
-                skill={"C++"}
+                className="overflow-hidden"
+                logo={<SiTypescript className="text-white p-1" />}
+                black={"white"}
+                white={"black"}
+                skill={"TypeScript"}
               />
               {/* <SkillBox
                 className=""

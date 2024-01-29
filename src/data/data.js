@@ -22,31 +22,18 @@ export const data = [
     link: "https://travel-agency-vite.netlify.app",
     git: "",
   },
+
   {
     id: 3,
-    img: "https://ik.imagekit.io/imgkitt/tr:w-800/weather.jpeg?updatedAt=1683134012969",
-    title: "Weather Web",
-    desc: "I developed a weather web application using React.js that utilizes the Fetch API and includes PWA (Progressive Web App) functionality.",
-    link: "https://weatherwebbappp.netlify.app/",
-    git: "https://github.com/SandipNITA2025/weather-app",
-  },
-  {
-    id: 4,
     img: "https://ik.imagekit.io/imgkitt/nike.JPG?updatedAt=1683563311643",
     title: "Nike Clone",
     desc: "This Nike clone has been built with the help of Next.js and Tailwind CSS..",
     link: "https://nike-clones.vercel.app/",
     git: "",
   },
+
   {
-    id: 5,
-    img: project6,
-    title: "MERN Expense Manager",
-    link: "https://strange-sunbonnet-lamb.cyclic.app/",
-    git: "",
-  },
-  {
-    id: 6,
+    id: 4,
     img: "https://ik.imagekit.io/imgkitt/tr:w-800/ecommerce.jpeg?updatedAt=1683134011136",
     title: "Ecommerce Clone",
     desc: "This is an e-commerce web application built using React JS, SCSS, Redux Toolkit, and a Dummy JSON API. It includes search functionality, as well as the ability to add and remove items from a shopping cart.",
@@ -54,7 +41,7 @@ export const data = [
     git: "https://github.com/SandipNITA2025/react-redux-ecommerce",
   },
   {
-    id: 7,
+    id: 6,
     img: "https://ik.imagekit.io/imgkitt/mobile.png?updatedAt=1685388082890",
     title: "Blog Website",
     desc: "This is a full-stack web application that uses ReactJS, Tailwind CSS, ExpressJS, and MongoDB. The application features user authentication and enables users to create, edit, and delete their own posts, as well as view posts created by others.",
@@ -62,11 +49,19 @@ export const data = [
     git: "https://github.com/SandipNITA2025/MERN-STACK---BLOG-POST-WEB",
   },
   {
-    id: 8,
+    id: 7,
     img: "https://ik.imagekit.io/imgkitt/indohype.JPG?updatedAt=1702276135123",
-    title: "Indohype (Live)",
+    title: "Indohype: Latest News & Blogs (Live)",
     desc: "Thrilled to unveil a dynamic Full Stack masterpiece—sleek User panel, Admin panel, and robust backend APIs for the Indohype website. Excited to deliver top-notch functionality for our client's digital journey!",
     link: "https://www.indohype.com/",
+    git: "",
+  },
+  {
+    id: 8,
+    img: "https://i.postimg.cc/NLqfGxVc/mobile-5.png",
+    title: "Palette: Design Your Clothes",
+    desc: "PALETTE, an e-commerce platform enabling users to customize designs on clothing for a client.  Implemented cutting-edge technologies like React JS, FabricJS, Redux Toolkit, and React Query for a seamless user experience.",
+    link: "https://palette-frontend-ten.vercel.app/custom-design",
     git: "",
   },
 ];

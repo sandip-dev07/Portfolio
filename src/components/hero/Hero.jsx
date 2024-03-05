@@ -104,7 +104,7 @@ const Hero = () => {
                 loading="lazy"
                 // data-aos="fade-up"
                 className="image h-[450px] w-[450px] md:h-[300px] md:w-[300px]  overflow-hidden object-cover  md:m-auto sm:m-0"
-                src="https://res.cloudinary.com/dcsouj6ix/image/upload/v1709303057/Dev%20Alpha/sansip_nebwed.png"
+                src="https://res.cloudinary.com/dcsouj6ix/image/upload/v1709662971/My%20Portfolio/sansip_lxanzu.png"
                 // src={mine}
                 alt="mine"
               />

@@ -10,11 +10,11 @@ import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "../../assets/Sandip_Sarkar.pdf";
-import { data } from "./../../data/data";
+import { BsArrowUpRightCircleFill } from "react-icons/bs";
 
 const Hero = () => {
   return (
-    <div id="home" className={` bg-gradient-to-r from-green-200 to-blue-200 `}>
+    <div id="home" className={` `}>
       <div className=" container mx-auto pt-5 h-[750px] md:h-[100vh] md:flex-col-reverse sm:h-[780px]  flex sm:flex-col-reverse sm:pt-0 ">
         <div className=" left mt-4 md:mt-0 flex-1 flex flex-col justify-center gap-5 w-1/2 md:w-full md:py-2 sm:py-0">
           <div className="info w-fit flex flex-col items-start justify-center gap-3 sm:gap-2">
@@ -22,22 +22,14 @@ const Hero = () => {
               data-aos="fade-up"
               className=" text-5xl font-semibold sm:text-[2rem] font-[]"
             >
-              Hello, I'm{" "}
+              Hey, I'm{" "}
               <span className="text-yellow- font-bold font-mono">
-                {" "}
-                {"{"}Sandip Sarkar{"}"}
+                Sandip Sarkar
               </span>
             </h2>
             <TypeAnimation
               data-aos="fade-up"
-              sequence={[
-                "Web Developer",
-                2000,
-                "Freelancer",
-                2000,
-                "Content Creator",
-                2000,
-              ]}
+              sequence={["Web Developer", 2000, "Freelancer", 2000]}
               speed={30}
               wrapper="h2"
               repeat={Infinity}
@@ -64,10 +56,10 @@ const Hero = () => {
             >
               <div className="flex items-center gap-1 relative">
                 Resume <FiDownload />
-                <span class="absolute top-[-11px] right-[-31px] flex h-3 w-3">
+                {/* <span class="absolute top-[-11px] right-[-31px] flex h-3 w-3">
                   <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75"></span>
                   <span class="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
-                </span>
+                </span> */}
               </div>
             </a>
           </div>
@@ -78,9 +70,9 @@ const Hero = () => {
               className=" flex gap-5"
             >
               <li>
-                <a href="https://github.com/SandipNITA2025">
+                <a href="https://devalphaspace.com/">
                   {" "}
-                  <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
+                  <BsArrowUpRightCircleFill className=" h-[1.7rem] w-[1.7rem] text-[1rem] hover:scale-125  " />{" "}
                 </a>
               </li>
               <li>
@@ -90,17 +82,12 @@ const Hero = () => {
                 </a>
               </li>
               <li>
-                <a href="https://instagram.com/the_sandip___?igshid=ZDdkNTZiNTM=">
+                <a href="https://github.com/SandipNITA2025">
                   {" "}
-                  <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
+                  <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
                 </a>
               </li>
-              <li>
-                <a href="https://www.facebook.com/profile.php?id=100004767878989">
-                  {" "}
-                  <FaFacebook className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
-                </a>
-              </li>
+
               <li>
                 <a href="">
                   {" "}
@@ -111,16 +98,18 @@ const Hero = () => {
           </div>
         </div>
         <div className="right  top-5 flex-1 flex items-center justify-center md:items-end sm:items-end">
-          <div className="relative h-[88%] w-fit flex items-center sm:items-end">
-            <img
-              loading="lazy"
-              data-aos="fade-up"
-              className=" h-[80%] w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src="https://ik.imagekit.io/imgkitt/tr:w-1200/mine-min.png?updatedAt=1683134786173"
-              // src={mine}
-              alt="mine"
-            />
-            <div className=" absolute bottom-12 md:bottom-3 right-10 md:right-2">
+          <div className="relative h-[80%] w-fit flex items-center sm:items-end">
+            <div className="h-[80%] md:h-[95%]">
+              <img
+                loading="lazy"
+                // data-aos="fade-up"
+                className="image h-[450px] w-[450px] md:h-[300px] md:w-[300px]  overflow-hidden object-cover  md:m-auto sm:m-0"
+                src="https://res.cloudinary.com/dcsouj6ix/image/upload/v1709303057/Dev%20Alpha/sansip_nebwed.png"
+                // src={mine}
+                alt="mine"
+              />
+            </div>
+            <div className=" absolute bottom-20 md:bottom-3 right-2 md:right-2">
               <div
                 data-aos="zoom-in"
                 data-aos-duration="1000"

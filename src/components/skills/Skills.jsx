@@ -47,7 +47,7 @@ const Skills = ({ darkMode }) => {
                 <ProgressBar logo={<IoLogoCss3 />} name={"CSS"} value={95} />
                 <ProgressBar
                   logo={<SiTailwindcss />}
-                  name={"Tailwind CSS"}
+                  name={"TailwindCSS"}
                   value={90}
                 />
                 <ProgressBar
@@ -55,10 +55,10 @@ const Skills = ({ darkMode }) => {
                   name={"Javascript"}
                   value={85}
                 />
-                <ProgressBar logo={<FaReact />} name={"React Js"} value={85} />
+                <ProgressBar logo={<FaReact />} name={"React.js"} value={85} />
                 <ProgressBar
                   logo={<TbBrandNextjs />}
-                  name={"Next Js"}
+                  name={"Next.js"}
                   value={70}
                 />
               </div>
@@ -71,7 +71,7 @@ const Skills = ({ darkMode }) => {
                 logo={<IoLogoNodejs />}
                 black={"white"}
                 white={"black"}
-                skill={"Node Js"}
+                skill={"Node.js"}
               />
               <SkillBox
                 logo={<SiMongodb />}
@@ -85,7 +85,7 @@ const Skills = ({ darkMode }) => {
                 logo={<SiExpress />}
                 black={"black"}
                 white={"white"}
-                skill={"Express Js"}
+                skill={"Express.js"}
               />
               <SkillBox
                 className="overflow-hidden"

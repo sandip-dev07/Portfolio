@@ -65,7 +65,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
           >
             Sandip<span className="text-red-500">.</span>
           </Link>
-      </div>
+        </div>
         <div
           data-aos="fade-down"
           className="nav-items flex items-center space-x-11"
@@ -75,7 +75,19 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             onClick={toggleNav}
             className="cursor-pointer text-2xl hidden md:block"
           >
-            <HiMenu size={25} />
+            {/* <HiMenu size={25} /> */}
+            <svg
+              viewBox="0 0 21 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="fill-black w-[0] lg:w-[25px] h-[0] lg:h-[25px] sm:w-[23px] sm:h-[23px] active:scale-95"
+            >
+              <path
+                d="m101.9 57.009c0 .551-.51765.991-1.09725.991h-3.15c-.57855 0-1.00275-.44-1.00275-.991v-3c0-.551.4242-1.009 1.00275-1.009h3.15c.5796 0 1.09725.458 1.09725 1.009zm-1.09725-6.009h-3.15c-1.73985 0-3.10275 1.352-3.10275 3.009v3c0 1.657 1.3629 2.991 3.10275 2.991h3.15c1.73985 0 3.19725-1.334 3.19725-2.991v-3c0-1.657-1.4574-3.009-3.19725-3.009zm-10.45275 6.009c0 .551-.51765.991-1.09725.991h-3.15c-.57855 0-1.00275-.44-1.00275-.991v-3c0-.551.4242-1.009 1.00275-1.009h3.15c.5796 0 1.09725.458 1.09725 1.009zm-1.09725-6.009h-3.15c-1.73985 0-3.10275 1.352-3.10275 3.009v3c0 1.657 1.3629 2.991 3.10275 2.991h3.15c1.73985 0 3.19725-1.334 3.19725-2.991v-3c0-1.657-1.4574-3.009-3.19725-3.009zm12.64725-4.991c0 .551-.51765.991-1.09725.991h-3.15c-.57855 0-1.00275-.44-1.00275-.991v-3c0-.551.4242-1.009 1.00275-1.009h3.15c.5796 0 1.09725.458 1.09725 1.009zm-1.09725-6.009h-3.15c-1.73985 0-3.10275 1.352-3.10275 3.009v3c0 1.657 1.3629 2.991 3.10275 2.991h3.15c1.73985 0 3.19725-1.334 3.19725-2.991v-3c0-1.657-1.4574-3.009-3.19725-3.009zm-10.45275 6.009c0 .551-.51765.991-1.09725.991h-3.15c-.57855 0-1.00275-.44-1.00275-.991v-3c0-.551.4242-1.009 1.00275-1.009h3.15c.5796 0 1.09725.458 1.09725 1.009zm-1.09725-6.009h-3.15c-1.73985 0-3.10275 1.352-3.10275 3.009v3c0 1.657 1.3629 2.991 3.10275 2.991h3.15c1.73985 0 3.19725-1.334 3.19725-2.991v-3c0-1.657-1.4574-3.009-3.19725-3.009z"
+                fillRule="evenodd"
+                transform="translate(-83 -40)"
+              />
+            </svg>
           </button>
 
           <ul
@@ -102,7 +114,10 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
                     item.name === activeIndex ? "text-yellow-600" : ""
                   }`}
                 >
-                  {item.name}<span className="text-red-500 font-bold text-[25px] pl-[1px]">.</span>
+                  {item.name}
+                  <span className="text-red-500 font-bold text-[25px] pl-[1px]">
+                    .
+                  </span>
                 </a>
               </li>
             ))}
@@ -115,6 +130,12 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
           </ul>
         </div>
       </nav>
+
+      <style>{`
+        html {
+          overflow-y: ${isOpen ? "hidden" : "visible"};
+        }
+      `}</style>
     </div>
   );
 };

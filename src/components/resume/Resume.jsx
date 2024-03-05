@@ -22,7 +22,7 @@ const Resume = () => {
             data-aos="zoom-in"
             className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
           >
-            <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-yellow-500">
+            <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-black">
               Internship
             </legend>
             <div className=" relative">
@@ -33,7 +33,7 @@ const Resume = () => {
                 <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
               </div>
               {/* design */}
-              <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+              <div className=" flex flex-col gap-1 sm:gap-1 border-2 hover:border-yellow-400 hover:shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg bg-white" >
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
                   Software Developer Intern
                 </h1>
@@ -55,7 +55,7 @@ const Resume = () => {
             data-aos="zoom-in"
             className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
           >
-            <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-yellow-500">
+            <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-black">
               Education
             </legend>
             <div className=" relative">
@@ -66,12 +66,12 @@ const Resume = () => {
                 <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
               </div>
               {/* design */}
-              <div className=" flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+              <div className=" flex flex-col gap-1 border-2 hover:border-yellow-400 hover:shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg bg-white">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
                   B.Tech, Engineering Physics
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                  National Institute of Technology, Agartala
+                  NIT, Agartala
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
                   Year 2020 - Year 2024
@@ -79,7 +79,7 @@ const Resume = () => {
                 <p className=" text-[.9rem] text-justify text-gray-500">
                   As an undergraduate student, I have a good understanding of
                   web development technologies such as HTML, CSS, Tailwind CSS,
-                  JavaScript, and React JS. Additionally, I'm proficient in
+                  JavaScript, and React.js, Next.js. Additionally, I'm proficient in
                   backend technologies such as Node.js, Express.js, and MongoDB.
                   I also have skills in C++ and problem-solving using Data
                   structures and Algorithms.

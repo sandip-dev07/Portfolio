@@ -34,7 +34,11 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
   // Toggle the navbar
   const toggleNav = (name) => {
     setIsOpen(!isOpen);
+  };
+
+  const handleRedirect = (name) => {
     setActiveIndex(name === activeIndex ? null : name);
+    setIsOpen(false);
   };
 
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -102,13 +106,14 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             >
               <RxCross2 size={25} />
             </button>
+
             {navItems.map((item) => (
               <li
                 key={item.id}
                 className="md:m-6 md:flex md:gap-6 md:items-center md:justify-center"
               >
                 <a
-                  onClick={() => toggleNav(item.name)}
+                  onClick={() => handleRedirect(item.name)}
                   href={`#${item.name}`}
                   className={`uppercase cursor-pointer text-black hover:text-yellow-600 font-bold ${
                     item.name === activeIndex ? "text-yellow-600" : ""

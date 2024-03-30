@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Suspense } from "react";
 import { BarLoader } from "react-spinners";
-import Home from "./pages/Home";
+import Home from "./pages/index";
 
 const App = () => {
   const [loading, setLoading] = useState(true);

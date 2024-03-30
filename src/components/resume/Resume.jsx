@@ -1,4 +1,6 @@
 import React from "react";
+import { RiLink } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 const Resume = () => {
   return (
@@ -33,18 +35,26 @@ const Resume = () => {
                 <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
               </div>
               {/* design */}
-              <div className=" flex flex-col gap-1 sm:gap-1 border-2 hover:border-yellow-400 hover:shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg bg-white" >
+              <div className=" flex flex-col gap-1 sm:gap-1 border-2 hover:border-yellow-400 hover:shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg bg-white">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                  Software Developer Intern
+                  Fullstack Developer Intern
                 </h1>
-                <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                Drafteq Engineering
-                </span>
+                <Link to={"https://www.hashteksolutions.com/"}>
+                  <span className=" text-[1rem] font-semibold text-gray-500 sm:text-base flex items-center gap-1">
+                    <RiLink /> Hashtek Solutions
+                  </span>
+                </Link>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                  May 2023 - Aug 2023
+                  March 2024 - Present
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                In my current internship at Drafteq Engineering, I'm working as a Full Stack Developer focusing on the frontend development using React JS, where I work on creating interactive and user-friendly interfaces. Additionally, I am responsible for building the backend API using Node.js, Express.js, and MongoDB, enabling data storage and retrieval for the application.
+                  In my current internship at Hashtek Solutions, I'm working as
+                  a Fullstack Developer focusing on the frontend development
+                  using React.js and scss, where I work on creating interactive
+                  and user-friendly interfaces. Additionally, I'm responsible
+                  for building the backend APIs using Node.js, Express.js, and
+                  Postgresql, enabling data storage and retrieval for the
+                  application.
                 </p>
               </div>
             </div>
@@ -70,19 +80,21 @@ const Resume = () => {
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
                   B.Tech, Engineering Physics
                 </h1>
-                <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                  NIT, Agartala
-                </span>
+                <Link to={"https://www.nita.ac.in/"}>
+                  <span className=" text-[1rem] font-semibold text-gray-500 sm:text-base flex items-center gap-1">
+                    <RiLink /> NIT, Agartala
+                  </span>
+                </Link>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
                   Year 2020 - Year 2024
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
                   As an undergraduate student, I have a good understanding of
-                  web development technologies such as HTML, CSS, Tailwind CSS,
-                  JavaScript, and React.js, Next.js. Additionally, I'm proficient in
-                  backend technologies such as Node.js, Express.js, and MongoDB.
-                  I also have skills in C++ and problem-solving using Data
-                  structures and Algorithms.
+                  web development technologies such as HTML, CSS, TailwindCSS,
+                  JavaScript, TypeScript, React.js and Next.js. Additionally, I'm
+                  proficient in backend technologies such as Node.js,
+                  Express.js, MongoDB and MySQL. I also have skills in C++ and
+                  problem-solving using Data structures and Algorithms.
                 </p>
               </div>
             </div>

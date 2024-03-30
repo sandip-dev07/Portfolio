@@ -3,6 +3,7 @@ import ProgressBar from "../../chip/ProgressBar";
 import SkillBox from "../../chip/SkillBox";
 
 import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
+import { SiMysql } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
 import {
@@ -59,14 +60,14 @@ const Skills = ({ darkMode }) => {
                 <ProgressBar
                   logo={<TbBrandNextjs />}
                   name={"Next.js"}
-                  value={70}
+                  value={82}
                 />
               </div>
             </div>
           </div>
           {/* right box */}
-          <div className="right relative flex-1 flex flex-wrap p-5 gap-10 items-center justify-center sm:w-full">
-            <div className="first2 flex flex-col gap-10">
+          <div className="right relative flex-1 flex flex-wrap p-5  gap-10 items-center justify-center sm:w-full">
+            <div className="first2 flex flex-col gap-10 ">
               <SkillBox
                 logo={<IoLogoNodejs />}
                 black={"white"}
@@ -80,7 +81,7 @@ const Skills = ({ darkMode }) => {
                 skill={"MongoDB"}
               />
             </div>
-            <div className="last2 flex flex-col gap-10">
+            <div className="last2 flex flex-col gap-10 mt-10">
               <SkillBox
                 logo={<SiExpress />}
                 black={"black"}
@@ -89,10 +90,10 @@ const Skills = ({ darkMode }) => {
               />
               <SkillBox
                 className="overflow-hidden"
-                logo={<SiTypescript className="text-white p-1" />}
+                logo={<SiMysql className="text-white p-1" />}
                 black={"white"}
                 white={"black"}
-                skill={"TypeScript"}
+                skill={"MySQL"}
               />
               {/* <SkillBox
                 className=""

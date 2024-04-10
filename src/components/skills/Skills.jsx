@@ -69,10 +69,10 @@ const Skills = ({ darkMode }) => {
           <div className="right relative flex-1 flex flex-wrap p-5  gap-10 items-center justify-center sm:w-full">
             <div className="first2 flex flex-col gap-10 ">
               <SkillBox
-                logo={<IoLogoNodejs />}
+                logo={<div className=" p-2 bg-white rounded-full"><SiTypescript className="text-black p-[2px]" /></div>}
                 black={"white"}
                 white={"black"}
-                skill={"Node.js"}
+                skill={"Typescript"}
               />
               <SkillBox
                 logo={<SiMongodb />}

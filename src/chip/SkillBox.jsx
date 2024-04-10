@@ -18,7 +18,7 @@ const SkillBox = ({ logo, black, white, skill }) => {
           white +
           " text-" +
           black +
-          " w-14 sm:w-12 exsm:w-10 h-14 sm:h-12 exsm:h-10 p-2 rounded-full flex items-center justify-center text-6xl sm:text-4xl"
+          " w-14 sm:w-12 exsm:w-10 h-14 sm:h-12 exsm:h-10 p-2 rounded-full flex items-center justify-center text-6xl sm:text-4xl overflow-hidden"
         }
       >
         {logo}

@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "aos": "^3.0.0-beta.6",
+    "lucide-react": "^0.376.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-geiger": "^1.1.0",

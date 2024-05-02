@@ -4,6 +4,7 @@ import { data } from "../data/data";
 import { RxExternalLink } from "react-icons/rx";
 import { AiOutlineGithub } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import { Rocket } from "lucide-react";
 
 const WorkCard = () => {
   const reversedData = [...data].filter((item, id) => id !== 1).reverse();
@@ -57,7 +58,8 @@ const WorkCard = () => {
                 </div>
               </div>
             </POPUP>
-            <p className="text-black text-start text-[1.1rem] sm:text-[1rem]  sm:text-lg font-poppins        w-fit p- px-3 rounded-[5px] font-medium">
+            <p className="text-black text-start text-[1.1rem] sm:text-[1rem]  sm:text-lg font-poppins     flex items-center gap-2   w-fit p- px-3 rounded-[5px] font-medium">
+              <Rocket size={18} />
               {data.title}
             </p>
           </div>

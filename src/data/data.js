@@ -23,14 +23,14 @@ export const data = [
     git: "",
   },
 
-  {
-    id: 3,
-    img: "https://res.cloudinary.com/dcsouj6ix/image/upload/v1709659832/My%20Portfolio/2_jlgxki.png",
-    title: "Nike UI Clone",
-    desc: "A Nike clone built using Next.js and Tailwind CSS.",
-    link: "https://nike-clones.vercel.app/",
-    git: "",
-  },
+  // {
+  //   id: 3,
+  //   img: "https://res.cloudinary.com/dcsouj6ix/image/upload/v1709659832/My%20Portfolio/2_jlgxki.png",
+  //   title: "Nike UI Clone",
+  //   desc: "A Nike clone built using Next.js and Tailwind CSS.",
+  //   link: "https://nike-clones.vercel.app/",
+  //   git: "",
+  // },
 
   // {
   //   id: 4,
@@ -66,6 +66,14 @@ export const data = [
   },
   {
     id: 9,
+    img: "https://res.cloudinary.com/dcsouj6ix/image/upload/v1715420933/My%20Portfolio/Amazing_Portfolio_Website_yugwiq.png",
+    title: "Chuckle Chums: Kids Clothing",
+    desc: "Chuckle Chums is an e-commerce platform for kids, implemented with Next.js, TypeScript, Tailwind CSS, and React Query, offering a seamless user experience. It was a freelance project for a client.",
+    link: "https://chuckle-chums-frontend.vercel.app/",
+    git: "",
+  },
+  {
+    id: 10,
     img: "https://res.cloudinary.com/dcsouj6ix/image/upload/v1709659829/My%20Portfolio/3_aiyeaj.png",
     title: "Dev Alphaspace : Freelancing",
     desc: "Discover our expertise in web & app development, UI/UX design. Transform your digital ideas into reality with our creative team.",

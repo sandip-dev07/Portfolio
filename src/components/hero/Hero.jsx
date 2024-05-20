@@ -151,7 +151,7 @@ const Hero = () => {
           onClick={handleEmailButtonClick}
           className="box font-medium text-white  flex items-start justify-center gap-1"
         >
-          <MdEmail className=" text-white text-3xl sm:text-2xl hover:scale-110 cursor-pointer" />
+          <MdEmail className=" rotate-[15deg] text-white text-3xl sm:text-2xl hover:scale-110 cursor-pointer" />
           {/* <p>Email</p> */}
         </button>
       </div>

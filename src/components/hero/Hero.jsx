@@ -11,10 +11,22 @@ import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "../../assets/Sandip_Sarkar.pdf";
 import { BsArrowUpRightCircleFill } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
 
 const Hero = () => {
+  const handleEmailButtonClick = () => {
+    if (/Mobi|Android/i.test(navigator.userAgent)) {
+      // If it's a mobile device, open the default mail client
+      window.location.href = "mailto:contact@sandipsarkar.dev";
+    } else {
+      // If it's not a mobile device, open Gmail in the default browser
+      window.open(
+        "https://mail.google.com/mail/?view=cm&fs=1&to=contact@sandipsarkar.dev",
+        "_blank"
+      );
+    }
+  };
 
- 
   return (
     <div id="home" className={` `}>
       <div className=" container mx-auto pt-5 h-[750px] md:h-[100vh] md:flex-col-reverse sm:h-[780px]  flex sm:flex-col-reverse sm:pt-0 ">
@@ -129,6 +141,19 @@ const Hero = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* mail button */}
+      <div className="fixed bottom-10 right-10 bg-yellow-500 w-16 h-16 sm:w-12 sm:h-12 flex items-center justify-center rounded-full z-20 animate-bounce">
+        <button
+          data-aos="fade-up"
+          data-aos-duration="1200"
+          onClick={handleEmailButtonClick}
+          className="box font-medium text-white  flex items-start justify-center gap-1"
+        >
+          <MdEmail className=" text-white text-3xl sm:text-2xl hover:scale-110 cursor-pointer" />
+          {/* <p>Email</p> */}
+        </button>
       </div>
     </div>
   );

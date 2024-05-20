@@ -13,6 +13,8 @@ import resumePDF from "../../assets/Sandip_Sarkar.pdf";
 import { BsArrowUpRightCircleFill } from "react-icons/bs";
 
 const Hero = () => {
+
+ 
   return (
     <div id="home" className={` `}>
       <div className=" container mx-auto pt-5 h-[750px] md:h-[100vh] md:flex-col-reverse sm:h-[780px]  flex sm:flex-col-reverse sm:pt-0 ">
@@ -70,11 +72,12 @@ const Hero = () => {
               className=" flex gap-5"
             >
               <li>
-                <a href="https://devalphaspace.com/">
+                <a href="https://github.com/SandipNITA2025">
                   {" "}
-                  <BsArrowUpRightCircleFill className=" h-[1.7rem] w-[1.7rem] text-[1rem] hover:scale-125  " />{" "}
+                  <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
                 </a>
               </li>
+
               <li>
                 <a href="https://www.linkedin.com/in/sarkar-sandip/">
                   {" "}
@@ -82,9 +85,9 @@ const Hero = () => {
                 </a>
               </li>
               <li>
-                <a href="https://github.com/SandipNITA2025">
+                <a href="https://devalphaspace.com/">
                   {" "}
-                  <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
+                  <BsArrowUpRightCircleFill className=" h-[1.7rem] w-[1.7rem] text-[1rem] hover:scale-125  " />{" "}
                 </a>
               </li>
 

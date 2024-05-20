@@ -1,9 +1,21 @@
 import React from "react";
 import { FaLinkedinIn, FaTelegramPlane } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
-import { RiInstagramFill } from "react-icons/ri";
+import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
+  const handleEmailButtonClick = () => {
+    if (/Mobi|Android/i.test(navigator.userAgent)) {
+      // If it's a mobile device, open the default mail client
+      window.location.href = "mailto:contact@sandipsarkar.dev";
+    } else {
+      // If it's not a mobile device, open Gmail in the default browser
+      window.open(
+        "https://mail.google.com/mail/?view=cm&fs=1&to=contact@sandipsarkar.dev",
+        "_blank"
+      );
+    }
+  };
   return (
     <div id="works" className=" mx-auto m-auto h-[300px]  mt-16 sm:h-[250px]">
       <div className=" bg-[#000] h-full flex flex-col gap-8 items-center justify-between p-10 sm:p-7">
@@ -24,15 +36,15 @@ const Footer = () => {
             <p>Linkedin</p>
           </a>
 
-          <a
+          <button
             data-aos="fade-up"
             data-aos-duration="1000"
-            href="https://telegram.me/SarkarSandip"
+            onClick={handleEmailButtonClick}
             className="box font-medium text-white   flex tems-start justify-center gap-1"
           >
-            <FaTelegramPlane className=" text-white text-xl hover:scale-125 cursor-pointer" />
-            <p>Telegram</p>
-          </a>
+            <MdEmail className=" text-white text-xl hover:scale-125 cursor-pointer" />
+            <p>Email</p>
+          </button>
           <a
             data-aos="fade-up"
             data-aos-duration="1200"

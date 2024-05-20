@@ -1,10 +1,4 @@
-import project1 from "../assets/hotel-kusum.jpeg";
 import project2 from "../assets/travel-clone.jpeg";
-import project3 from "../assets/weather.jpeg";
-import project4 from "../assets/social-clone.jpeg";
-import project6 from "../assets/MERN-expense.jpeg";
-import project7 from "../assets/ecommerce.jpeg";
-import project8 from "../assets/blog-app.png";
 
 export const data = [
   {

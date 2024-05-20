@@ -1,4 +1,4 @@
-import project2 from "../assets/travel-clone.jpeg";
+
 
 export const data = [
   {
@@ -11,7 +11,7 @@ export const data = [
   },
   {
     id: 2,
-    img: project2,
+    img: "https://res.cloudinary.com/dcsouj6ix/image/upload/v1709659832/My%20Portfolio/1_ny3n3m.png",
     title: "Tarvel Agency",
     link: "https://travel-agency-vite.netlify.app",
     git: "",

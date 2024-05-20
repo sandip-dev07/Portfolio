@@ -144,14 +144,14 @@ const Hero = () => {
       </div>
 
       {/* mail button */}
-      <div className="fixed bottom-10 right-10 bg-yellow-500 w-16 h-16 sm:w-12 sm:h-12 flex items-center justify-center rounded-full z-20 animate-bounce">
+      <div className="fixed bottom-10 right-10 sm:right-5 sm:bottom-5 bg-yellow-500 w-16 h-16 sm:w-12 sm:h-12 flex items-center justify-center rounded-full z-20 animate-bounce">
         <button
           data-aos="fade-up"
           data-aos-duration="1200"
           onClick={handleEmailButtonClick}
           className="box font-medium text-white  flex items-start justify-center gap-1"
         >
-          <MdEmail className=" text-white text-3xl sm:text-2xl hover:scale-110 cursor-pointer" />
+          <MdEmail className=" text-black text-3xl sm:text-2xl hover:scale-110 cursor-pointer" />
           {/* <p>Email</p> */}
         </button>
       </div>

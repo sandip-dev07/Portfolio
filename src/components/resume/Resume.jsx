@@ -1,8 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import { RiLink } from "react-icons/ri";
 import { Link } from "react-router-dom";
 
 const Resume = () => {
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  const internships = [
+    {
+      title: "Fullstack Developer Intern",
+      company: "Hashtek Solutions",
+      link: "https://www.hashteksolutions.com/",
+      date: "March 2024 - Present",
+      description: `In my current internship at Hashtek Solutions, I'm working as
+                    a Fullstack Developer focusing on the frontend development
+                    using React.js and SCSS, where I work on creating interactive
+                    and user-friendly interfaces. Additionally, I'm responsible
+                    for building the backend APIs using Node.js, Express.js, and
+                    PostgreSQL, enabling data storage and retrieval for the
+                    application.`,
+    },
+    {
+      title: "Fullstack Developer Intern",
+      company: "Drafteq Engineering",
+      link: "https://www.drafteq.com/",
+      date: "August 2023 - December 2023",
+      description: `During my internship at Drafteq Engineering, I worked as a Full Stack Developer, focusing on frontend development using React.js. I created interactive and user-friendly interfaces. Additionally, I was responsible for building the backend API using Node.js, Express.js, and MongoDB, enabling data storage and retrieval for the application.`,
+    },
+  ];
+
+  const handleDotClick = (index) => {
+    setCurrentSlide(index);
+  };
   return (
     <div id="resume" className=" container m-auto   mt-16">
       {/* heading */}
@@ -35,27 +63,57 @@ const Resume = () => {
                 <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
               </div>
               {/* design */}
-              <div className=" flex flex-col gap-1 sm:gap-1 border-2 hover:border-yellow-400 hover:shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg bg-white">
-                <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                  Fullstack Developer Intern
-                </h1>
-                <Link to={"https://www.hashteksolutions.com/"}>
-                  <span className=" text-[1rem] font-semibold text-gray-500 sm:text-base flex items-center gap-1">
-                    <RiLink /> Hashtek Solutions
-                  </span>
-                </Link>
-                <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                  March 2024 - Present
-                </span>
-                <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                  In my current internship at Hashtek Solutions, I'm working as
-                  a Fullstack Developer focusing on the frontend development
-                  using React.js and scss, where I work on creating interactive
-                  and user-friendly interfaces. Additionally, I'm responsible
-                  for building the backend APIs using Node.js, Express.js, and
-                  Postgresql, enabling data storage and retrieval for the
-                  application.
-                </p>
+              <div className="card-wrapper w-[100%] sm:w-full mt-5 flex flex-col items-center mx-auto">
+                <div className="relative w-full flex items-center justify-center overflow-hidden">
+                  <div className="carousel-container w-full sm:w-full overflow-hidden">
+                    <div
+                      className="carousel-inner flex transition-transform duration-500"
+                      style={{
+                        transform: `translateX(-${currentSlide * 100}%)`,
+                      }}
+                    >
+                      {internships.map((internship, index) => (
+                        <div
+                          className="carousel-item w-full flex-shrink-0"
+                          key={index}
+                        >
+                          <div className="flex flex-col gap-1 sm:gap-1 border-2 hover:border-yellow-400 hover:shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg bg-white">
+                            <h1 className="text-[1.4rem] font-semibold sm:text-xl">
+                              {internship.title}
+                            </h1>
+                            <Link
+                              to={internship.link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className="text-[1rem] font-semibold text-gray-500 sm:text-base flex items-center gap-1">
+                                <RiLink /> {internship.company}
+                              </span>
+                            </Link>
+                            <span className="text-[.9rem] font-semibold text-yellow-500 sm:text-base">
+                              {internship.date}
+                            </span>
+                            <p className="text-[.9rem] text-justify break-words text-gray-500">
+                              {internship.description}
+                            </p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+                {/* Dots */}
+                <div className="dots mt-4 flex justify-center gap-2">
+                  {internships.map((_, index) => (
+                    <div
+                      key={index}
+                      onClick={() => handleDotClick(index)}
+                      className={`cursor-pointer w-2 h-2 rounded-full ${
+                        currentSlide === index ? "bg-yellow-500" : "bg-gray-300"
+                      }`}
+                    ></div>
+                  ))}
+                </div>
               </div>
             </div>
           </fieldset>
@@ -91,8 +149,8 @@ const Resume = () => {
                 <p className=" text-[.9rem] text-justify text-gray-500">
                   As an undergraduate student, I have a good understanding of
                   web development technologies such as HTML, CSS, TailwindCSS,
-                  JavaScript, TypeScript, React.js and Next.js. Additionally, I'm
-                  proficient in backend technologies such as Node.js,
+                  JavaScript, TypeScript, React.js and Next.js. Additionally,
+                  I'm proficient in backend technologies such as Node.js,
                   Express.js, MongoDB and MySQL. I also have skills in C++ and
                   problem-solving using Data structures and Algorithms.
                 </p>

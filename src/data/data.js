@@ -47,7 +47,7 @@ export const data = [
     img: "https://res.cloudinary.com/dcsouj6ix/image/upload/v1709659836/My%20Portfolio/7_nph0pn.png",
     title: "Indohype: Latest News & Blogs",
     desc: "Developed a dynamic Full Stack solution for Indohype website, featuring sleek User and Admin panels, and robust backend APIs. Excited to deliver top-notch functionality for the client's digital journey.",
-    link: "https://www.indohype.com/",
+    link: "https://indo-hype-news-projects.vercel.app/",
     git: "",
   },
   {

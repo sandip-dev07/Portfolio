@@ -1,11 +1,6 @@
 import React from "react";
-import mine from "../../assets/mine-min.png";
-import {
-  AiFillTwitterCircle,
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
+import { AiFillTwitterCircle, AiFillGithub } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";

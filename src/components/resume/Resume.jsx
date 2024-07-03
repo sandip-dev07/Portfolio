@@ -11,13 +11,7 @@ const Resume = () => {
       company: "Hashtek Solutions",
       link: "https://www.hashteksolutions.com/",
       date: "March 2024 - Present",
-      description: `In my current internship at Hashtek Solutions, I'm working as
-                    a Fullstack Developer focusing on the frontend development
-                    using React.js and SCSS, where I work on creating interactive
-                    and user-friendly interfaces. Additionally, I'm responsible
-                    for building the backend APIs using Node.js, Express.js, and
-                    PostgreSQL, enabling data storage and retrieval for the
-                    application.`,
+      description: `In my current internship at HashTek Solutions, I'm working as a Fullstack Developer focusing on frontend development using React.js, React Native, and SCSS to create interactive and user-friendly interfaces. Additionally, I'm working on backend APIs using Node.js, Express.js, PostgreSQL, and AWS to enable data storage and retrieval for the application.`,
     },
     {
       title: "Fullstack Developer Intern",

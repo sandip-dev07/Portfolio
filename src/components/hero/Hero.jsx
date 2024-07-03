@@ -14,7 +14,7 @@ const Hero = () => {
       // If it's a mobile device, open the default mail client
       window.location.href = "mailto:contact@sandipsarkar.dev";
     } else {
-      // If it's not a mobile device, open Gmail in the default browser
+      // If it's not a mobile device, open Gmail in the default browsere
       window.open(
         "https://mail.google.com/mail/?view=cm&fs=1&to=contact@sandipsarkar.dev",
         "_blank"
@@ -38,7 +38,7 @@ const Hero = () => {
             </h2>
             <TypeAnimation
               data-aos="fade-up"
-              sequence={["Web Developer", 2000, "Freelancer", 2000]}
+              sequence={["Web Developer", 2000, "App Developer", 2000, "Freelancer", 2000]}
               speed={30}
               wrapper="h2"
               repeat={Infinity}

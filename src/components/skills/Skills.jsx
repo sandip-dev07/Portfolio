@@ -15,7 +15,7 @@ import {
 } from "react-icons/si";
 import { GrCode } from "react-icons/gr";
 import { SiNextdotjs } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
+import { FaAws, FaReact } from "react-icons/fa";
 import { IoLogoNodejs } from "react-icons/io";
 
 const Skills = ({ darkMode }) => {
@@ -52,7 +52,7 @@ const Skills = ({ darkMode }) => {
                   value={85}
                 />
                 <ProgressBar logo={<FaReact />} name={"React.js"} value={85} />
-                <ProgressBar logo={<FaReact />} name={"React Native"} value={75} />
+                {/* <ProgressBar logo={<FaReact />} name={"React Native"} value={75} /> */}
                 <ProgressBar
                   logo={<TbBrandNextjs />}
                   name={"Next.js"}
@@ -65,10 +65,10 @@ const Skills = ({ darkMode }) => {
           <div className="right relative flex-1 flex flex-wrap p-5  gap-10 items-center justify-center sm:w-full">
             <div className="first2 flex flex-col gap-10 ">
               <SkillBox
-                logo={<div className=" p-2 bg-white rounded-full"><SiTypescript className="text-black p-[2px]" /></div>}
+                logo={<div className=" p-2 bg-white rounded-full"><FaAws className="text-black p-[10px]" /></div>}
                 black={"white"}
                 white={"black"}
-                skill={"Typescript"}
+                skill={"AWS"}
               />
               <SkillBox
                 logo={<SiMongodb />}

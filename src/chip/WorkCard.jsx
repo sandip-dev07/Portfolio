@@ -60,7 +60,7 @@ const WorkCard = () => {
             </POPUP>
             <p className="text-black text-start text-[1.1rem] sm:text-[1rem]  sm:text-lg font-poppins     flex items-center gap-2   w-fit p- px-3 rounded-[5px] font-medium">
               <Rocket size={18} />
-              {data.title}
+              <span className="line-clamp-1"> {data.title}</span>
             </p>
           </div>
         );

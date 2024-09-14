@@ -1,5 +1,3 @@
-
-
 export const data = [
   {
     id: 1,
@@ -34,14 +32,14 @@ export const data = [
   //   link: "https://redux-store-app.netlify.app/",
   //   git: "https://github.com/SandipNITA2025/react-redux-ecommerce",
   // },
-  {
-    id: 6,
-    img: "https://res.cloudinary.com/dcsouj6ix/image/upload/v1709659832/My%20Portfolio/1_mdizwg.png",
-    title: "Blog Website",
-    desc: "A full-stack web app using ReactJS, Tailwind CSS, ExpressJS, and MongoDB. Features include user authentication and CRUD functionality for creating, editing, and deleting posts, with the ability to view posts by other users.",
-    link: "https://blog-web-app-delta.vercel.app/",
-    git: "https://github.com/SandipNITA2025/MERN-STACK---BLOG-POST-WEB",
-  },
+  // {
+  //   id: 6,
+  //   img: "https://res.cloudinary.com/dcsouj6ix/image/upload/v1709659832/My%20Portfolio/1_mdizwg.png",
+  //   title: "Blog Website",
+  //   desc: "A full-stack web app using ReactJS, Tailwind CSS, ExpressJS, and MongoDB. Features include user authentication and CRUD functionality for creating, editing, and deleting posts, with the ability to view posts by other users.",
+  //   link: "https://blog-web-app-delta.vercel.app/",
+  //   git: "https://github.com/SandipNITA2025/MERN-STACK---BLOG-POST-WEB",
+  // },
   {
     id: 7,
     img: "https://res.cloudinary.com/dcsouj6ix/image/upload/v1709659836/My%20Portfolio/7_nph0pn.png",
@@ -72,6 +70,14 @@ export const data = [
     title: "Dev Alphaspace : Freelancing",
     desc: "Discover our expertise in web & app development, UI/UX design. Transform your digital ideas into reality with our creative team.",
     link: "https://devalphaspace.com/",
+    git: "",
+  },
+  {
+    id: 11,
+    img: "https://res.cloudinary.com/dcsouj6ix/image/upload/v1726296170/Amazing_Portfolio_Website_dol4fh.png",
+    title: "LearnGo: LMS Platform",
+    desc: "LearnGo offers a powerful Learning Management System (LMS) designed to help individuals and organizations access engaging and effective online courses. Unlock your learning potential with our cutting-edge platform.",
+    link: "https://lms-kuch-bhi.netlify.app/",
     git: "",
   },
 ];
